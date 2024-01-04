@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SoftwareDevelopmentComponent } from './software-development/software-development.component';
 import { DataScienceComponent } from './data-science/data-science.component';
+import { BlockchainComponent } from './blockchain/blockchain.component';
+import { AiMlComponent } from './ai-ml/ai-ml.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SoftwareDevelopmentComponent,
-    DataScienceComponent
+    DataScienceComponent,
+    BlockchainComponent,
+    AiMlComponent
   ],
   imports: [
     BrowserModule,

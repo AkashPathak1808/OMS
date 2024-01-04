@@ -129,6 +129,12 @@
     background-color: rgba(250, 250, 250, 1);
 }
 
+.card:hover {
+    background-color: rgba(146, 53, 1, 0.49);
+    transition-duration: 800ms;
+    padding: 6% 5%;
+}
+
 .col-10 h6 {
     color: #1A202C;
     font-family: Poppins;
