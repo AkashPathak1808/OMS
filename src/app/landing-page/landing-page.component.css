@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter&family=Poppins:wght@100&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+/* Section 1 CSS */
+
+
+h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 10%;
+  margin-top: 2.5%;
+}
+
+.programming img {
+  width: 550px;
+}
+
+.railworld {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.rail1 {
+  color: #021eba;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 147.5%;
+}
+
+.great {
+  background: linear-gradient(180deg, #3d63ea 44.46%, #000 66.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 59px;
+  text-transform: capitalize;
+}
+
+.product {
+  background: linear-gradient(
+    180deg,
+    #e14d4d 27.72%,
+    rgba(13, 28, 159, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 59px;
+}
+
+.teams {
+  background: linear-gradient(225deg, #f7666f 0%, #406aff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 59px;
+  text-transform: capitalize;
+}
+
+.button {
+  margin-top: 5%;
+  border: none;
+  display: inline-flex;
+  padding: 21.714px 34.285px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.428px;
+  border-radius: 0.357rem;
+  background: #3d63ea;
+  box-shadow: 0px 4.571px 55.999px 0px rgba(0, 0, 0, 0.15);
+  color: #fafafa;
+
+  font-family: "Inter";
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 0.875rem;
+}
+
+/* Section 2 CSS */
+
+.secondSecHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 2.438rem;
+  font-weight: 400;
+  padding: 5% 25%;
+}
+
+/* Section 3 CSS */
+.container3 {
+  background-color: rgba(202, 200, 232, 0.6);
+  padding: 6%;
+  border-radius: 30px;
+}
+
+.group img {
+  width: 550px;
+  height: 450px;
+}
+
+.groupHeading {
+  color: #1a202c;
+  font-size: 2.361rem;
+  font-weight: 400;
+  line-height: 157.143%;
+}
+
+.softwareDevelop {
+  color: #1a202c;
+  font-size: 2.361rem;
+  font-weight: 900;
+  line-height: 59.372px;
+}
+
+.paragraphs p {
+  margin-top: 5%;
+  font-size: 1.214rem;
+  font-weight: 400;
+  line-height: 200%;
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.information {
+  margin-top: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  color: #57007b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.Rightarrow {
+  width: 1.3rem;
+  height: 1.3rem;
+  color: rgba(87, 0, 123, 1);
+}
+
+/* Section 4 CSS */
+
+.fourthSection {
+  padding: 3%;
+}
+
+.fourthSecHeading,
+.eightSecHeading,
+.sixthSecHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1a202c;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 2.361rem;
+  font-weight: 400;
+}
+
+.working,
+.approach,
+.techStacks {
+  color: #1a202c;
+  font-family: "Inter";
+  font-size: 2.361rem;
+  font-weight: 700;
+}
+
+/* Section 5 CSS  */
+
+.container5 {
+  background-color: rgb(242, 216, 242);
+  padding: 6%;
+  border-radius: 30px;
+}
+
+.paras {
+  display: flex;
+  flex-direction: column;
+}
+
+.p1 {
+  color: #1a202c;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.p2 {
+  margin-top: 5%;
+  color: #2d3748;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.p3 {
+  margin-top: 5%;
+  color: #2d3748;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.delivery {
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.colleagues {
+  animation: 4s linear 1s infinite pulse;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.13) translateX(20px);
+  }
+}
+
+/* Section 6 */
+
+.sixthSection {
+  padding: 3%;
+}
+
+.underline {
+  height: 50px;
+  width: 75px;
+}
+
+/* Section 7 CSS  */
+
+.section7 {
+  font-family: "Inter";
+}
+
+.Rows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+  place-items: center;
+  margin-bottom: 7%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1.1rem;
+  padding: 7% 4%;
+  width: 600px;
+  flex-shrink: 0;
+  border: 1px solid var(--Shade-Primary-lite-bg, #e7daed);
+  background: var(--Gray-gray-50, #fafafa);
+}
+
+.cards:hover {
+  cursor: pointer;
+  background: rgb(243, 218, 222);
+  transition-duration: 0.8s;
+}
+
+.cardImg {
+  width: 59px;
+  height: 56px;
+  border-radius: 10px;
+}
+
+.uxDriven {
+  background: var(
+    --Gradient-dark-bg,
+    linear-gradient(225deg, #29272e 0%, #27272e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "salt" on;
+  font-weight: 700;
+}
+
+.developing {
+  background: var(
+    --Gradient-info-bg,
+    linear-gradient(225deg, #68dbf2 0.01%, #509cf5 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "salt" on;
+
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.heart {
+  background: var(
+    --Gradient-tertiary-bg,
+    linear-gradient(224deg, #ff92ae 8.18%, #ff3d9a 95.84%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "salt" on;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.security {
+  background: var(
+    --Gradient-success-bg,
+    linear-gradient(225deg, #67e9f1 0%, #24e795 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "salt" on;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.codeReview {
+  background: var(
+    --Gradient-warning-bg,
+    linear-gradient(225deg, #ffef5e 0%, #f7936f 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "salt" on;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.lock {
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "salt" on;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+/* Section 10 CSS  */
+
+.tenthSection {
+  margin-top: 8%;
+}
+
+.clients {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  font-size: 2.25rem;
+}
+
+.clientReview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1a202c;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 2.361rem;
+  font-weight: 400;
+}
+
+/* Section 11 */
+.reviewCard {
+  padding: 3% 2%;
+  width: 400px;
+  border-radius: 30px;
+  background: rgba(217, 217, 217, 0.8);
+}
+
+.reviewCard:hover {
+  .name,
+  .reviews,
+  .stars {
+    transform: translateY(-10px) translateX(15px);
+    transition-duration: 1s;
+  }
+}
+
+.name {
+  text-align: center;
+  color: #000;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.reviews {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 400;
+  float: right;
+}
+
+.stars {
+  text-align: center;
+}
+
+.comma1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.comma2 {
+  font-weight: bolder;
+  float: right;
+  font-size: 40px;
+}
+
+.allcards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Section 12  */
+
+.twelveSection {
+  margin-top: 3%;
+  font-family: "Inter";
+}
+
+.section12 {
+  padding: 5% 5%;
+  border-radius: 20px;
+  background: var(
+    --Gradient-Secondery-bg,
+    linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%)
+  );
+}
+
+.hiring {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bestDevelopers {
+  font-size: 35px;
+  font-weight: 700;
+  background: var(
+    --Gradient-dark-bg,
+    linear-gradient(225deg, #29272e 0%, #27272e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 550px) {
+}
