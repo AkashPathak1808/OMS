@@ -7,6 +7,7 @@ import { SoftwareDevelopmentComponent } from './software-development/software-de
 import { DataScienceComponent } from './data-science/data-science.component';
 import { BlockchainComponent } from './blockchain/blockchain.component';
 import { AiMlComponent } from './ai-ml/ai-ml.component';
+import { UiUxComponent } from './ui-ux/ui-ux.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AiMlComponent } from './ai-ml/ai-ml.component';
     SoftwareDevelopmentComponent,
     DataScienceComponent,
     BlockchainComponent,
-    AiMlComponent
+    AiMlComponent,
+    UiUxComponent
   ],
   imports: [
     BrowserModule,
