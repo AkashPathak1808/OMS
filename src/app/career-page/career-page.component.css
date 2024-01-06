@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter&family=Poppins:wght@100&display=swap");
+
+.section1 {
+  font-family: "Poppins";
+  padding: 10%;
+  background-image: url("../../assets/CareerPageImg/careerpagewave.svg");
+}
+
+h3 {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.buildFuture {
+  color: #000;
+  font-size: 3.125rem;
+  font-weight: 400;
+  letter-spacing: 3.2px;
+}
+
+/* Section 2  */
+
+.secondSection{
+  margin-top: 7%;
+}
+
+.section2 {
+  padding: 7% 2%;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(128, 0, 128, 0.1);
+}
+
+.image2 {
+  width: 511.563px;
+  height: 532.448px;
+  flex-shrink: 0;
+}
+
+.joinUs {
+  color: #000;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 2.2px;
+}
+
+.f_technology {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.rwi {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  text-align: start;
+}
+
+.future {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Section 3 */
+.thirdSec {
+  margin-top: 10%;
+  background-image: url("../../assets/CareerPageImg/background.svg");
+
+}
+
+.innovation {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 300;
+  letter-spacing: 5.2px;
+}
+
+.destination {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+}
+
+.g_future{
+ padding: 20% 0%;
+}

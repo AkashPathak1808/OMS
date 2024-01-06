@@ -8,6 +8,11 @@
 
 /* Section 1 CSS */
 
+.firstSection {
+  background-image: url("../../assets//LandingPageImg/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 h3 {
   text-align: center;
@@ -20,6 +25,7 @@ h3 {
 
 .programming img {
   width: 550px;
+  
 }
 
 .railworld {
@@ -55,7 +61,7 @@ h3 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- 
+
   font-size: 2.8rem;
   font-style: normal;
   font-weight: 600;
@@ -91,7 +97,6 @@ h3 {
   font-family: "Inter";
   font-size: 0.875rem;
   font-weight: 600;
-  line-height: 0.875rem;
 }
 
 /* Section 2 CSS */
@@ -101,13 +106,15 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: #000;
   font-size: 2.438rem;
   font-weight: 400;
-  padding: 5% 25%;
+  /* margin-top: 10%; */
 }
 
 /* Section 3 CSS */
+
 .container3 {
   background-color: rgba(202, 200, 232, 0.6);
   padding: 6%;
@@ -116,7 +123,6 @@ h3 {
 
 .group img {
   width: 550px;
-  height: 450px;
 }
 
 .groupHeading {
@@ -169,7 +175,7 @@ h3 {
 /* Section 4 CSS */
 
 .fourthSection {
-  padding: 3%;
+  margin-top: 5%;
 }
 
 .fourthSecHeading,
@@ -180,7 +186,6 @@ h3 {
   justify-content: center;
   align-items: center;
   color: #1a202c;
-  text-align: center;
   font-family: "Inter";
   font-size: 2.361rem;
   font-weight: 400;
@@ -257,7 +262,7 @@ h3 {
 /* Section 6 */
 
 .sixthSection {
-  padding: 3%;
+  margin-top: 5%;
 }
 
 .underline {
@@ -286,6 +291,7 @@ h3 {
   gap: 1.1rem;
   padding: 7% 4%;
   width: 600px;
+  height: 237px;
   flex-shrink: 0;
   border: 1px solid var(--Shade-Primary-lite-bg, #e7daed);
   background: var(--Gray-gray-50, #fafafa);
@@ -416,6 +422,7 @@ h5 {
 }
 
 /* Section 11 */
+
 .reviewCard {
   padding: 3% 2%;
   width: 400px;
@@ -503,10 +510,130 @@ h5 {
 }
 
 @media screen and (max-width: 992px) {
+  .workingwomen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .programming img {
+    width: 400px;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reviewCard {
+    padding: 5% 3%;
+    width: 600px;
+  }
+
+  .allcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .section7 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards {
+    padding: 7% 4%;
+    width: 700px;
+  }
+
+  .groupHeading {
+    font-size: 2.2rem;
+    padding: 2% 0%;
+  }
+
+  .colleagues img {
+    margin-top: 22%;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .reviewCard {
+    padding: 5% 3%;
+    width: 500px;
+  }
+
+  .allcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .secondSecHeading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .group img {
+    width: 450px;
+  }
+
+  .groupHeading {
+    font-size: 2.1rem;
+  }
+
+  .softwareDevelop {
+    font-size: 2.1rem;
+    font-weight: 900;
+    line-height: 59.372px;
+  }
+
+  .hiring {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bestDevelopers {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 700;
+  }
+
+  .clientReview {
+    font-size: 2rem;
+  }
+
+  .cards {
+    padding: 7% 4%;
+    width: 500px;
+  }
+
+  .railworld {
+    font-size: 2.5rem;
+  
+  }
+
+  .rail1 {
+    font-size: 2.3rem;
+  }
+
+  .great {
+    font-size: 2.3rem;
+  }
+  .product {
+    font-size: 2.3rem;
+  }
+
+  .teams {
+    font-size: 2.3rem;
+  }
+
+ 
 }
 
 @media screen and (max-width: 550px) {
+ 
 }
