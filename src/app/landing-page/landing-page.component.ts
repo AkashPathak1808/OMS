@@ -23,5 +23,7 @@ export class LandingPageComponent {
   star =  'assets/LandingPageImg/Star.png';
   womanworking =  'assets/LandingPageImg/womanworking.svg';
   hire =  'assets/LandingPageImg/hire.svg';
-
+  Rectangle = 'assets/LandingPageImg/Rectangle.svg';
+  circle = 'assets/LandingPageImg/circle.svg';
+  gif = 'assets/LandingPageImg/gif.gif';
 }
