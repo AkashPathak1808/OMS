@@ -12,28 +12,28 @@
 }
 
 .data {
-  margin: 15% auto;
+  margin: 12% auto;
 }
 
 .text-function {
   font-family: 'Kalam', cursive;
   color: #BA1200;
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 580;
 }
 
 .head-text {
   color: #7D00B1;
   white-space: nowrap;
-  font-family: 'Kalam', cursive;
-  font-weight: 500;
+  font-family: poppins;
+  font-weight: bold;
   line-height: 120%;
 }
 
 .para {
   color: #000;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 25px;
 }
 
@@ -91,7 +91,6 @@
   margin: 6px;
 }
 
-
 .img-tree1-copy {
   max-width: 100%;
   height: auto;
@@ -140,7 +139,28 @@
   margin: 10px auto;
 }
 
-.content2 {
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.serviceLink {
+  border-radius: 10px;
+  background-color: rgba(12, 188, 139, 0.36);
+  padding: 1% 2%;
+  margin: 1%;
+  font-family: poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: rgba(125, 0, 177, 0.31);
+  text-decoration: none;
+  color: #000;
+}
+
+/* .content2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 40px;
@@ -178,41 +198,60 @@
   width: 200px;
   height: 59px;
   padding: 18px 6px;
-}
+} */
 
 .Detail-data {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     background: #F2D4FF;
     margin: 15px 65px;
-    border-radius: 8%;
+    border-radius: 2%;
 
 }
 
 .first-para {
-    width: 45%;
-    margin: 5% 3%;
+
+  padding: 1% 4%;
+  margin: 1% 1%;
+    
 }
 
 .ImgIos1 {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 3% 15%;
+    padding: 4% 1%;
 }
 
 .Detailed-para {
     font-family: Poppins;
     color:#000000;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
-    padding:2px 50px;
+    padding: 8% 5%;
+}
+
+.Detailed-para1 {
+  font-family: Poppins;
+  color:#000000;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 3% 4%;
 }
 
 .ImgIos2 {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 10% 3%;
+  padding:4% 6%;
+}
+
+/* Responsive */
+
+@media (max-width: 570px) {
+
+  .img-lady {
+    margin: 5px 5px;
+    align-items: center;
+    justify-content: center;
+  }
 }
