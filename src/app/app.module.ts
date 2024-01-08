@@ -10,6 +10,8 @@ import { DataScienceComponent } from './data-science/data-science.component';
 import { BlockchainComponent } from './blockchain/blockchain.component';
 import { AiMlComponent } from './ai-ml/ai-ml.component';
 import { UiUxComponent } from './ui-ux/ui-ux.component';
+import { FooterComponent } from './footer/footer.component';
+import { JobDeskComponent } from './job-desk/job-desk.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { UiUxComponent } from './ui-ux/ui-ux.component';
     DataScienceComponent,
     BlockchainComponent,
     AiMlComponent,
-    UiUxComponent
+    UiUxComponent,
+    FooterComponent,
+    JobDeskComponent
   ],
   imports: [
     BrowserModule,
