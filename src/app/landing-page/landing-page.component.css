@@ -16,7 +16,6 @@
 
 .section1 {
   padding-bottom: 7%;
-
 }
 
 h3 {
@@ -119,7 +118,7 @@ h3 {
 }
 
 .group img {
-  width: 500px;
+  width: 450px;
 }
 
 .groupHeading {
@@ -171,8 +170,17 @@ h3 {
 
 .circle {
   background-image: url("../../assets/LandingPageImg/circle.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  animation: 10s linear 1s infinite slideBackground;
+}
+
+@keyframes slideBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
 }
 
 /* Section 4 CSS */
@@ -279,7 +287,7 @@ h3 {
 
 /* Section 7 CSS  */
 
-.container7{
+.container7 {
   background-image: url("../../assets/LandingPageImg/gif.gif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,8 +295,7 @@ h3 {
 
 .section7 {
   font-family: "Inter";
- padding: 8%;
-  
+  padding: 8%;
 }
 
 .Rows {
@@ -403,7 +410,7 @@ h5 {
   font-weight: 600;
 }
 
-.eightSection{
+.eightSection {
   margin-top: 5%;
 }
 
@@ -537,12 +544,13 @@ h5 {
     padding-bottom: 9%;
   }
 
-  /* .cards {
-    height: 250px;
-  } */
-
   .group img {
-    width: 450px;
+    width: 400px;
+    margin-top: 20%;
+  }
+
+  .cards {
+    height: 250px;
   }
 }
 
@@ -574,6 +582,10 @@ h5 {
 
   .colleagues img {
     margin-top: 22%;
+  }
+
+  .cards {
+    height: 320px;
   }
 }
 
@@ -635,11 +647,19 @@ h5 {
   .teams {
     font-size: 2.3rem;
   }
+
+  .cards {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .programming img {
     width: 280px;
+  }
+
+  .cards {
+    height: 380px;
   }
 
   .group img {
@@ -653,6 +673,5 @@ h5 {
     flex-direction: column;
     text-align: center;
     font-size: 2.2rem;
-    
   }
 }
