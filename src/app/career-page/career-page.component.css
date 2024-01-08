@@ -6,14 +6,16 @@
   font-family: "Poppins";
   padding: 10%;
   background-image: url("../../assets/CareerPageImg/careerpagewave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h3 {
   color: #000;
   font-size: 3rem;
   font-weight: 500;
-  letter-spacing: 2.4px;
   text-transform: uppercase;
+  letter-spacing: 2.4px;
 }
 
 .buildFuture {
@@ -25,7 +27,7 @@ h3 {
 
 /* Section 2  */
 
-.secondSection{
+.secondSection {
   margin-top: 7%;
 }
 
@@ -34,26 +36,22 @@ h3 {
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(128, 0, 128, 0.1);
-}
 
-.image2 {
-  width: 511.563px;
-  height: 532.448px;
-  flex-shrink: 0;
+  background-image: url("../../assets/CareerPageImg/circlescatter.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .joinUs {
   color: #000;
   font-size: 22px;
   font-weight: 300;
-  letter-spacing: 2.2px;
 }
 
 .f_technology {
   color: #000;
   font-size: 40px;
   font-weight: 500;
-  letter-spacing: 4px;
 }
 
 .rwi {
@@ -74,24 +72,61 @@ h3 {
 .thirdSec {
   margin-top: 10%;
   background-image: url("../../assets/CareerPageImg/background.svg");
-
 }
 
 .innovation {
   color: #fff;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 300;
-  letter-spacing: 5.2px;
 }
 
 .destination {
   color: #fff;
   font-family: "Inter";
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
-  letter-spacing: 1.6px;
 }
 
-.g_future{
- padding: 20% 0%;
+.g_future {
+  padding: 20% 0%;
+}
+
+@media screen and (max-width: 992px) {
+  .image2 {
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .buildFuture {
+    font-size: 2.8rem;
+  }
+
+  .underline {
+    width: 12rem;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .buildFuture {
+    font-size: 2.5rem;
+  }
+
+  .innovation {
+    font-size: 2.5rem;
+  }
+
+  .destination {
+    font-size: 1.5rem;
+  }
 }

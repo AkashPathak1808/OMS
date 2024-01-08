@@ -12,5 +12,7 @@ export class CareerPageComponent {
   careerpagewave =  'assets/CareerPageImg/careerpagewave.svg';
   underline =  'assets/CareerPageImg/underline.svg';
   background =  'assets/CareerPageImg/background.svg';
+  circlescatter =  'assets/CareerPageImg/circlescatter.svg';
+
   
 }

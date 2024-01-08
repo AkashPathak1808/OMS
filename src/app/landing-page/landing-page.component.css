@@ -192,6 +192,7 @@ h3 {
   font-family: "Inter";
   font-size: 2.361rem;
   font-weight: 400;
+  padding: 0% 5%;
 }
 
 .working,
@@ -400,6 +401,10 @@ h3 {
 
 h5 {
   font-weight: 600;
+}
+
+.eightSection{
+  margin-top: 5%;
 }
 
 /* Section 10 CSS  */
@@ -634,7 +639,7 @@ h5 {
 
 @media screen and (max-width: 550px) {
   .programming img {
-    width: 300px;
+    width: 280px;
   }
 
   .group img {
@@ -648,5 +653,6 @@ h5 {
     flex-direction: column;
     text-align: center;
     font-size: 2.2rem;
+    
   }
 }
