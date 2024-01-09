@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter&family=Poppins:wght@100;400&display=swap");
+
+.aboutUs {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 59px;
+}
+
+.itSoftware {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 59px;
+}
+
+.firstSection {
+  margin-top: 2%;
+}
+
+.rwi {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.row1 {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.border {
+  background: #000;
+  height: 5px;
+}
+
+/* Section2  */
+
+.secondSection {
+  margin-top: 3%;
+}
+.s_develop p {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+/* Section 3 */
+.thirdSection {
+  margin-top: 1%;
+}
+
+/* Section 4 */
+.chooseUs {
+  margin-top: 1%;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 59px;
+}
+
+.para4 p{
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 45px; 
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 550px) {
+  .aboutUs {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .itSoftware {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
