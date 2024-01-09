@@ -261,7 +261,7 @@ h3 {
 }
 
 .colleagues {
-  animation: 4s linear 1s infinite pulse;
+  animation: 5s linear 2s infinite pulse;
 }
 
 @keyframes pulse {

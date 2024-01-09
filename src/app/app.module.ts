@@ -18,6 +18,8 @@ import { AiMlComponent } from './ai-ml/ai-ml.component';
 import { CareerPageComponent } from './career-page/career-page.component';
 
 import { UiUxComponent } from './ui-ux/ui-ux.component';
+import { FooterComponent } from './footer/footer.component';
+import { JobDeskComponent } from './job-desk/job-desk.component';
 
 import { AboutUsComponent } from './about-us/about-us.component';
 
@@ -37,6 +39,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     DataScienceComponent,
     BlockchainComponent,
     AiMlComponent,
+<<<<<<< HEAD
 
     CareerPageComponent,
 
@@ -44,6 +47,15 @@ import { AboutUsComponent } from './about-us/about-us.component';
     AboutUsComponent,
 
     UiUxComponent,
+=======
+    UiUxComponent,
+    FooterComponent,
+    JobDeskComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+>>>>>>> 3237eef87b93c8d7a6556d282ee011ed232f7439
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
