@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter&family=Poppins:wght@100&display=swap");
+
+.section1 {
+  font-family: "Poppins";
+  padding: 10%;
+  background-image: url("../../assets/CareerPageImg/careerpagewave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+
+.buildFuture {
+  color: #000;
+  font-size: 3.125rem;
+  font-weight: 400;
+  letter-spacing: 3.2px;
+}
+
+/* Section 2  */
+
+.secondSection {
+  margin-top: 7%;
+}
+
+.section2 {
+  padding: 7% 2%;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(128, 0, 128, 0.1);
+
+  background-image: url("../../assets/CareerPageImg/circlescatter.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.joinUs {
+  color: #000;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.f_technology {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.rwi {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  text-align: start;
+}
+
+.future {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Section 3 */
+.thirdSec {
+  margin-top: 10%;
+  background-image: url("../../assets/CareerPageImg/background.svg");
+}
+
+.innovation {
+  color: #fff;
+  font-size: 3.25rem;
+  font-weight: 300;
+}
+
+.destination {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.g_future {
+  padding: 20% 0%;
+}
+
+@media screen and (max-width: 992px) {
+  .image2 {
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .buildFuture {
+    font-size: 2.8rem;
+  }
+
+  .underline {
+    width: 12rem;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .buildFuture {
+    font-size: 2.5rem;
+  }
+
+  .innovation {
+    font-size: 2.5rem;
+  }
+
+  .destination {
+    font-size: 1.5rem;
+  }
+}

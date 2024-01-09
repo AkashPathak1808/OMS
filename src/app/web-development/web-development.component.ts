@@ -11,7 +11,5 @@ export class WebDevelopmentComponent {
  treeImage = "assets/WebIos/tree1.svg";
  CircleWave = "assets/WebIos/circle-scatter.svg";
  Rectangle = "assets/WebIos/html-css Rectangle.svg";
- System = "assets/WebIos/systems-img.svg";
- IosImg = "assets/WebIos/ios-img 1.svg";
- IosImage = "assets/WebIos/ioss-img (2).svg";
+ squarebox ="assets/WebIos/square-box.svg"
 }
