@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
+
+
+/* part1 */
+
+.con1 {
+  background-image: url('../../assets/WebIos/layered-waves(2).svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.data {
+  margin: 12% auto;
+}
+
+.text-function {
+  font-family: 'Kalam', cursive;
+  color: #BA1200;
+  font-size: 14px;
+  font-weight: 580;
+}
+
+.head-text {
+  color: #7D00B1;
+  white-space: nowrap;
+  font-family: poppins;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.para {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+
+.circle-container {
+  display: flex;
+  margin-left: 25px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #7D00B1;
+  margin: 6px;
+}
+
+.circle:nth-child(2) {
+  background-color: #FF4D6D;
+}
+
+.circle:nth-child(3) {
+  background-color: #FF6610;
+  ;
+}
+
+.circle:nth-child(4) {
+  background-color: #C87AE1;
+}
+
+.circle:nth-child(5) {
+  background-color: #0CBC8B;
+}
+
+.circle:nth-child(6) {
+  background-color: #3D63EA;
+}
+
+.circle:nth-child(7) {
+  background-color: #3D63EA;
+}
+
+.circle:nth-child(8) {
+  background-color: #6EA731;
+  ;
+}
+
+.tree-box {
+  margin: 85px 10px;
+}
+
+.img-tree1 {
+  max-width: 100%;
+  height: auto;
+  margin: 6px;
+}
+
+.img-tree1-copy {
+  max-width: 100%;
+  height: auto;
+  margin: 6px;
+  transform: rotate(180deg);
+  opacity: 0.1;
+}
+
+.image {
+  margin: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.img-lady {
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+  margin-left: 95px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* part2 */
+
+.con2 {
+  background-image: url('../../assets/WebIos/circle-scatter.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.heading {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+  margin: 10px auto;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.serviceLink {
+  border-radius: 10px;
+  background: rgba(125, 0, 177, 0.31);
+  padding: 1% 0%;
+  margin: 1%;
+  font-family: poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color: black;
+  width: 210px;
+  height: 59px;
+  text-align: center;
+  transition: all 0.6s;
+}
+
+.serviceLink:hover {
+  background-color:  rgb(173, 233, 255);
+  cursor: pointer;
+}
+
+  .Detail-data {
+    background: #F2D4FF;
+    margin: 15px 65px;
+    border-radius: 2%;
+  }
+
+  .first-para {
+
+    padding: 1% 4%;
+    margin: 1% 1%;
+
+  }
+
+  .ImgIos1 {
+    max-width: 100%;
+    height: auto;
+    padding: 4% 1%;
+  }
+
+  .Detailed-para {
+    font-family: Poppins;
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8% 5%;
+  }
+
+  .Detailed-para1 {
+    font-family: Poppins;
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 3% 4%;
+  }
+
+  .ImgIos2 {
+    max-width: 100%;
+    height: auto;
+    padding: 4% 6%;
+  }
+
+  /* Responsive */
+
+  @media (max-width: 765px) {
+
+    .img-lady {
+      margin-bottom: 60px;
+      padding-right: 30px;
+    }
+  }
+
+  @media (max-width: 299px) {
+
+    .head-text {
+      font-size: medium;
+    }
+
+    .img-lady {
+      margin: 85px 2px;
+      padding-right: 8px;
+    }
+
+    .heading {
+      font-size: smaller;
+    }
+
+    .serviceLink p {
+      font-size: small;
+      padding-top: 8px;
+    }
+  }
+
+  @media (max-width: 375px) {
+
+    .Detail-data {
+      margin: 5px 15px;
+      border-radius: 2%;
+    }
+
+    .Detailed-para {
+      font-size: 6px;
+      padding: 2px;
+    }
+
+    .Detailed-para1 {
+      font-size: 6px;
+      padding: 1px;
+    }
+
+  }

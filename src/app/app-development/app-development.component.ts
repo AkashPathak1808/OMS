@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-development.component.css']
 })
 export class AppDevelopmentComponent {
-  treeImg="assets/contact-us-images/Rectangle 40036.svg";
-  System="assets/contact-us-images/app devlopmnt.gif";
-  img2="assets/contact-us-images/app-img (4).svg";
-  img3="assets/contact-us-images/undraw_mobile_development_re_wwsn 1.svg";
-  img4="assets/contact-us-images/app-img (3).svg";
-  logoo="assets/contact-us-images/Frame 106.svg";
+  treeImg="assets/contact-us-images/app-development-tree-image.svg";
+  System="assets/contact-us-images/app-devlopmnt-first-gif.gif";
+  img2="assets/contact-us-images/app-development-first-mobile-image.svg";
+  img3="assets/contact-us-images/app-development-second-mobile-image.svg";
+  img4="assets/contact-us-images/app-development-third-mobile-image.svg";
+  logoo="assets/contact-us-images/app-development-line-image.svg";
 }

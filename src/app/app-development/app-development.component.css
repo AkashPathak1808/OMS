@@ -5,7 +5,7 @@
 /* part1 */
 
 .con1 {
-   background-image: url('../../assets/contact-us-images/layered-waves-haikei 2 (4).svg');    
+   background-image: url('../../assets/contact-us-images/app-development-first-bckground.svg');    
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center center; */
@@ -97,7 +97,7 @@
   height: auto;
   margin: 6px;
   transform: rotate(180deg);
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 .image {
@@ -115,6 +115,8 @@
 margin-left: 48%;
 margin-top: 2%;
 margin-bottom: 1%;
+width: 69px;
+height: 23px;
 }
 
 .links {
@@ -164,21 +166,27 @@ transition: all 0.5s;
 }
 
 .imgnew{
-  margin-top: 15%;
-  margin-left: 2%;
+
+  /* margin-top: 15%; */
+  /* width:401px; */
+  height:354px;
 
 
 }
-.col .pgh{
-  margin-top: 20%;
+
+.sec3_img1{
+  padding: 5%;
+}
+
+.pgh{
+
   color: #000;
 font-family: Poppins;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
-text-align: start;
-margin-left: 14%;
+
+
 }
 
 .col .pgh2{
@@ -210,6 +218,7 @@ margin-left: 14%;
 .imgnew2{
   margin-top: 9%;
   margin-left: 2%;
+  height:354px;
 }
 
 
