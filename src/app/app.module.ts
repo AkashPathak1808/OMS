@@ -16,6 +16,10 @@ import { CareerPageComponent } from './career-page/career-page.component';
 
 import { UiUxComponent } from './ui-ux/ui-ux.component';
 
+import { AboutUsComponent } from './about-us/about-us.component';
+import { FooterComponent } from './footer/footer.component';
+import { JobDeskComponent } from './job-desk/job-desk.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,25 +30,23 @@ import { UiUxComponent } from './ui-ux/ui-ux.component';
     DataScienceComponent,
     BlockchainComponent,
     AiMlComponent,
-<<<<<<< HEAD
+
 
     CareerPageComponent,
 
-    UiUxComponent,
     AboutUsComponent,
 
     UiUxComponent,
-=======
-    UiUxComponent,
+
+  
     FooterComponent,
-    JobDeskComponent
+    JobDeskComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
->>>>>>> 3237eef87b93c8d7a6556d282ee011ed232f7439
+
   ],
-  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
