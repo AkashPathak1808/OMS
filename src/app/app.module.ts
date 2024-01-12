@@ -14,6 +14,8 @@ import { UiUxComponent } from './ui-ux/ui-ux.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './footer/footer.component';
 import { JobDeskComponent } from './job-desk/job-desk.component';
+import { AppDevelopmentComponent } from './app-development/app-development.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { JobDeskComponent } from './job-desk/job-desk.component';
     UiUxComponent,  
     FooterComponent,
     JobDeskComponent,
+    AppDevelopmentComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
