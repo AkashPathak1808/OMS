@@ -3,10 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { LandingPageComponent } from './landing-page/landing-page.component';
-
-import { WebDevelopmentComponent } from './web-development/web-development.component';
+import {WebDevelopmentComponent} from './web-development/web-development.component';
 import { IosDevelopmentComponent } from './ios-development/ios-development.component';
 
 
@@ -18,36 +15,23 @@ import { AiMlComponent } from './ai-ml/ai-ml.component';
 import { CareerPageComponent } from './career-page/career-page.component';
 
 import { UiUxComponent } from './ui-ux/ui-ux.component';
-import { FooterComponent } from './footer/footer.component';
-import { JobDeskComponent } from './job-desk/job-desk.component';
 
 import { AboutUsComponent } from './about-us/about-us.component';
+import { FooterComponent } from './footer/footer.component';
+import { JobDeskComponent } from './job-desk/job-desk.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-
-    LandingPageComponent,
-
     WebDevelopmentComponent,
     IosDevelopmentComponent,
-
-    WebDevelopmentComponent,
-    IosDevelopmentComponent,
-
     SoftwareDevelopmentComponent,
     DataScienceComponent,
     BlockchainComponent,
     AiMlComponent,
-
-
     CareerPageComponent,
-
-    UiUxComponent,
     AboutUsComponent,
-
     UiUxComponent,
-
     UiUxComponent,
     FooterComponent,
     JobDeskComponent
