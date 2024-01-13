@@ -5,20 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {WebDevelopmentComponent} from './web-development/web-development.component';
 import { IosDevelopmentComponent } from './ios-development/ios-development.component';
-
-
 import { SoftwareDevelopmentComponent } from './software-development/software-development.component';
 import { DataScienceComponent } from './data-science/data-science.component';
 import { BlockchainComponent } from './blockchain/blockchain.component';
 import { AiMlComponent } from './ai-ml/ai-ml.component';
-
 import { CareerPageComponent } from './career-page/career-page.component';
-
 import { UiUxComponent } from './ui-ux/ui-ux.component';
-
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './footer/footer.component';
 import { JobDeskComponent } from './job-desk/job-desk.component';
+import { AppDevelopmentComponent } from './app-development/app-development.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +31,12 @@ import { JobDeskComponent } from './job-desk/job-desk.component';
     UiUxComponent,
     UiUxComponent,
     FooterComponent,
-    JobDeskComponent
+    JobDeskComponent,
+    UiUxComponent,  
+    FooterComponent,
+    JobDeskComponent,
+    AppDevelopmentComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
