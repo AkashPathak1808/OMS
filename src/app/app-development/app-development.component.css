@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
+
+
+/* part1 */
+
+.con1 {
+   background-image: url('../../assets/contact-us-images/app-development-first-bckground.svg');    
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+}
+
+.data {
+  margin: 15% auto;
+}
+
+.text-function {
+  font-family: 'Kalam', cursive;
+  color: #BA1200;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.head-text {
+  color: #F6C73B;
+  white-space: nowrap;
+  font-family: 'Kalam', cursive;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.para {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+
+.circle-container {
+  display: flex;
+  margin-left: 25px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F6C73B;;
+  margin: 6px;
+}
+
+.circle:nth-child(2) {
+  background-color: #6EA731;
+}
+
+.circle:nth-child(3) {
+  background-color: #7D00B1;
+  ;
+}
+
+.circle:nth-child(4) {
+  background-color: #FF4D6D;
+}
+
+.circle:nth-child(5) {
+  background-color: #FF6610;
+}
+
+.circle:nth-child(6) {
+  background-color: #C87AE1;;
+}
+
+.circle:nth-child(7) {
+  background-color: #0CBC8B;
+}
+
+.circle:nth-child(8) {
+  background-color: #3D63EA;
+  ;
+}
+
+.tree-box {
+  margin: 85px 10px;
+}
+
+.img-tree1 {
+  max-width: 100%;
+  height: auto;
+  margin: 6px;
+}
+
+
+.img-tree1-copy {
+  max-width: 100%;
+  height: auto;
+  margin: 6px;
+  transform: rotate(180deg);
+  opacity: 0.3;
+}
+
+.image {
+  margin: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.img-lady {
+  margin-bottom: 2%;
+  max-width: 100%;
+
+}
+.line{
+margin-left: 48%;
+margin-top: 2%;
+margin-bottom: 1%;
+width: 69px;
+height: 23px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.serviceLink {
+  border-radius: 10px;
+ border-radius: 10px;
+background: rgba(246, 199, 59, 0.22);
+  padding: 1% 1%;
+  margin: 1%;
+  font-family: poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color:black;
+width:210px;
+height:59px;
+text-align:center;
+transition: all 0.5s;
+}
+
+.serviceLink:hover {
+  background-color: lightskyblue;
+  color:#fff;
+}
+
+.headtxt{
+  text-align: center;
+  margin-top: 2%;
+}
+
+
+
+.Main{
+  background-image: url('../../assets/contact-us-images/Rectangle 40090.svg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 24% 5% 0% 5%;
+  margin-top: 3.5%;
+}
+
+.imgnew{
+
+  /* margin-top: 15%; */
+  /* width:401px; */
+  height:354px;
+
+
+}
+
+.sec3_img1{
+  padding: 5%;
+}
+
+.pgh{
+
+  color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+
+}
+
+.col .pgh2{
+  margin-top: 20%;
+  color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: start;
+margin-right: 4%;
+}
+
+.col .pgh3{
+  margin-top: 10%;
+  margin-bottom: 15%;
+  color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: start;
+margin-left: 14%;
+}
+
+
+.imgnew2{
+  margin-top: 9%;
+  margin-left: 2%;
+  height:354px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .img-lady{
+      margin-bottom: 50%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+}
+
+
+
+
