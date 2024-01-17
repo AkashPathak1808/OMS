@@ -9,7 +9,7 @@
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-.container {
+.containert {
   max-width: 100%;
   width: 100%;
   padding: 20px;
@@ -19,7 +19,7 @@
 
 .headone {
   color: black;
-  font-size: 48px;
+  font-size: 46px;
   font-family: Poppins;
   font-weight: 400;
   line-height: 59px;
@@ -51,6 +51,8 @@ input[type="text"] {
   border-bottom-left-radius: 50px;
   outline: none;
   font-size: 16px;
+
+  
 }
 
 .search-btn {
@@ -66,7 +68,9 @@ input[type="text"] {
   outline: none;
 }
 
-
+/* btn-custom{
+  width: 100px;
+} */
 .resume-upload-container {
   background: rgba(255, 255, 255, 0.80);
   border: 2px rgba(0, 0, 0, 0.40) dotted;
@@ -76,9 +80,15 @@ input[type="text"] {
   padding: 10px;
   border-radius: 20px;
 }
-
-.btn {
-  margin: 20px;
+.btn-custom:hover {
+  background-color: #b1d2f8; /* Change this to your desired hover color */
+  color: #ffffff; /* Change this to your desired text color on hover */
+}
+.btn-custom {
+  margin-top: 20px;
+  width: 450px;
+  background-color: #e2e2e2;
+  padding: 15px;
 }
 
 .headbtn {
@@ -100,3 +110,29 @@ input[type="text"] {
   letter-spacing: 1px;
   margin-top: 10px;
 }
+.btn-submit{
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 445px){
+  .btn-custom{
+    width: 300px; 
+  }
+}
+@media only screen and (max-width: 992px){
+  .headone{
+    font-size: 30px;
+  }
+  .subheadtwo{
+    font-size: 23px;
+  }
+  .headbtn{
+   font-size: 20px;
+  }
+  .parbtn{
+   font-size: 15px;
+  }
+}
+
+
+
