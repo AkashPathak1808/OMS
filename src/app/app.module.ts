@@ -26,28 +26,17 @@ import { AboutUsComponent } from './about-us/about-us.component';
 @NgModule({
   declarations: [
     AppComponent,
-
     LandingPageComponent,
-
     WebDevelopmentComponent,
     IosDevelopmentComponent,
-
     WebDevelopmentComponent,
     IosDevelopmentComponent,
-
     SoftwareDevelopmentComponent,
     DataScienceComponent,
     BlockchainComponent,
     AiMlComponent,
-<<<<<<< HEAD
-
     CareerPageComponent,
-
-    UiUxComponent,
     AboutUsComponent,
-
-    UiUxComponent,
-=======
     UiUxComponent,
     FooterComponent,
     JobDeskComponent
@@ -55,9 +44,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
   imports: [
     BrowserModule,
     AppRoutingModule
->>>>>>> 3237eef87b93c8d7a6556d282ee011ed232f7439
   ],
-  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
