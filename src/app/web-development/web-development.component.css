@@ -107,8 +107,6 @@
 .img-lady {
   align-items: center;
   justify-content: center;
-  /* margin-top: 65px;
-  margin-left: 95px; */
   max-width: 100%;
   height: auto;
 }
@@ -138,32 +136,27 @@
   margin: 10px auto;
 }
 
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.container_links {
+  margin: 1% 3%;
 }
 
 .serviceLink {
   border-radius: 10px;
-  background: rgba(112, 191, 27, 0.43);
-  padding: 0.6% 0%;
-  margin: 1%;
-  font-family: poppins;
+  background-color: rgba(127, 175, 77, 0.6);
+  padding: 1% 3%;
+  margin: 1% 3%;
+  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   line-height: normal;
   text-decoration: none;
-  color: black;
-  width: 210px;
-  height: 59px;
-  text-align: center;
-  transition: all 0.6s;
+  color: #000;
+  transition: all 0.6s ease;
 }
 
 .serviceLink:hover {
-  background-color: rgb(161, 177, 182);
+  background-color: rgb(167, 254, 255);
   cursor: pointer;
 }
 
@@ -197,7 +190,7 @@
 }
 
 .rectangle-box {
-  height: 220px;
+  height: 269px;
   padding: 5% 3%;
   margin: 2% 0;
   background-color: rgba(250, 250, 250, 1);
@@ -246,17 +239,19 @@ p {
   .rectangle-box {
     height: fit-content;
   }
+
   .img-lady {
     margin: 2px 2px;
     margin-bottom: 45px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .rectangle-box {
     height: 300px;
   }
 
-  .col-2 img{
+  .col-2 img {
     margin: 1px 1px;
   }
 
@@ -271,6 +266,7 @@ p {
   .serviceLink {
     font-size: 13px;
   }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -286,15 +282,12 @@ p {
   .heading {
     font-size: smaller;
   }
-  .serviceLink {
-    padding: 1px 0px;
-    margin: 5px;
-    font-size: 10px;
-    width: 180px;
-    height: 39px;
+
+  .container_links {
+    margin: 1% 1%;
   }
 
-  .serviceLink p {
-    font-size: small;
+  .serviceLink {
+    font-size: 8px;
   }
 }
