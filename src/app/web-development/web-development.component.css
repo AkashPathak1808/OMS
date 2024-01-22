@@ -246,6 +246,14 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+
+  .circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 4px;
+  }
+
   .rectangle-box {
     height: 300px;
   }
@@ -264,7 +272,44 @@ p {
 
 }
 
+@media screen and (max-width: 375px) {
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 4px;
+  }
+
+  .rectangle-box {
+    height: 250px;
+  }
+
+  .col-10 h6 {
+    font-size: 12px;
+  }
+
+  .col-10 p {
+    font-size: 10px;
+  }
+
+  .col-2 img {
+    height: 35px;
+   }
+  
+}
+
 @media screen and (max-width: 450px) {
+
+  .img-tree1 {
+    height: 35px;
+    margin: 4px;
+  }
+  
+  .img-tree1-copy {
+    height: 35px;
+    margin: 4px;
+  }
 
   .head-text {
     font-size: medium;
