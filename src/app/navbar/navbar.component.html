@@ -1,0 +1,58 @@
+<nav class="navbar fixed-up navbar-expand-sm navbar-light" style="background-color: yellow; padding:0% 5%;">
+  <a routerLink="home" class="navbar-brand mb-0 ">
+    <img [src]="railworld" class="d-inline-block align-top railworld">
+  </a>
+
+  <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigataion">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a  class="nav-link" routerLink="home">
+          Home
+        </a>
+      </li>
+
+      <li class="nav-item active">
+        <a  class="nav-link" routerLink="careers">
+          Careers
+        </a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a routerLink="service" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false" >
+          Services
+        </a>  
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a routerLink="service/ios" class="dropdown-item" >IOS</a></li>
+          <li><a routerLink="service/android" class="dropdown-item">Android </a></li>
+          <li><a routerLink="service/app-development" class="dropdown-item">App Development</a></li>
+          <li><a routerLink="service/software-development" class="dropdown-item">Software Development</a></li>
+          <li><a routerLink="service/ui-ux-designing" class="dropdown-item">UI/UX</a></li>
+          <li><a routerLink="service/data-science" class="dropdown-item">Data Science Analyst</a></li>
+          <li><a routerLink="service/ai-ml-development" class="dropdown-item">AI-Ml Development</a></li>
+          <li><a routerLink="service/blockchain" class="dropdown-item">Blockchain</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item active">
+        <a  class="nav-link" routerLink="events">
+          Events
+        </a>
+      </li>
+
+      <li class="nav-item active">
+        <a  class="nav-link" routerLink="about-us">
+          About US
+        </a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>

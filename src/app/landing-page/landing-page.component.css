@@ -535,7 +535,8 @@ h5 {
 
 @media screen and (max-width: 1024px) {
   .railworld {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    
   }
 
   .programming img {
@@ -599,22 +600,22 @@ h5 {
   }
 
   .railworld {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .rail1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .great {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .product {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .teams {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .cards {
@@ -640,6 +641,8 @@ h5 {
 }
 
 @media screen and (max-width: 425px) {
+
+
   .programming img {
     width: 200px;
   }
@@ -660,6 +663,11 @@ h5 {
   .eightSecHeading,
   .sixthSecHeading {
     font-size: 1.8rem;
+  }
+
+  
+  .cards {
+    height: 350px;
   }
 }
 

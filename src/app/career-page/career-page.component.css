@@ -22,6 +22,7 @@ h3 {
   color: #000;
   font-size: 3rem;
   font-weight: 400;
+  line-height: 80px;
   letter-spacing: 3.2px;
 }
 
@@ -68,8 +69,6 @@ h3 {
   letter-spacing: 1.2px;
 }
 
-
-
 /* Section 3 */
 .thirdSec {
   margin-top: 10%;
@@ -97,8 +96,6 @@ h3 {
   padding-top: 15%;
 }
 
-
-
 .button {
   border-radius: 40px;
   background: #4bab9f;
@@ -111,49 +108,16 @@ h3 {
   margin-bottom: 5%;
 }
 
+
+
 .button:hover {
   cursor: pointer;
 }
-
-
-
-
 
 @media screen and (max-width: 1024px) {
   .image2 {
     margin-top: 13%;
   }
-}
-
-@media screen and (max-width: 992px) {
-  .joinUs {
-    font-size: 1rem;
-  }
-
-  .f_technology {
-    font-size: 1.8rem;
-  }
-
-  .rwi {
-    font-size: 1.1rem;
-  }
-
-  .buildFuture {
-    font-size: 2.5rem;
-  }
-
-  .innovation {
-    font-size: 1.5rem;
-    line-height: 40px;
-  }
-
-  .destination {
-    font-size: 1rem;
-    line-height: 40px;
-  }
-
-
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -163,6 +127,7 @@ h3 {
 
   .buildFuture {
     font-size: 2rem;
+    line-height: 40px;
   }
 
   .underline {
@@ -176,24 +141,18 @@ h3 {
 
   .destination {
     font-size: 1.5rem;
-   
   }
 
   .g_future {
     padding: 5% 0%;
-    
   }
 
   .button {
     float: left;
   }
-
-  .image3{
-    
-  }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 425px) {
   h3 {
     font-size: 2rem;
   }
@@ -204,12 +163,10 @@ h3 {
 
   .innovation {
     font-size: 1.5rem;
-   
   }
 
   .destination {
     font-size: 1.2rem;
-   
   }
 
   .f_technology {
