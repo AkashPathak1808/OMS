@@ -1,3 +1,40 @@
-.railworld{
-  width: 200px;
-}                                 
+.navigationBar {
+  background-color: #f6c73b;
+  
+}
+
+.railworld {
+  clip-path: polygon(0 0, 59% 0, 100% 100%, 0% 100%);
+  background-color: aliceblue;
+  width: 250px;
+ height: 80px;
+}
+
+ul li a {
+  color: #252630;
+  font-size: 22.376px;
+  font-weight: 400;
+  line-height: 28.383px;
+}
+
+.right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  height: 51px;
+  color: white;
+  background-color: #2e2e2e;
+}
+
+.contact {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
