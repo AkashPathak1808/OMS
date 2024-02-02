@@ -17,12 +17,11 @@ const routes: Routes = [
  
   {path: "home", component:LandingPageComponent },
   {path: "careers", component: CareerPageComponent},
-  // {path: "service", component: SoftwareDevelopmentComponent},
   {path: "about-us", component: AboutUsComponent},
 
 
   {path: "service/ios", component: IosDevelopmentComponent},
-  {path: "service/android", component: IosDevelopmentComponent},
+  {path: "service/android", component: AppDevelopmentComponent},
   {path: "service/app-development", component: AppDevelopmentComponent},
   {path: "service/software-development", component: SoftwareDevelopmentComponent},
   {path: "service/web-development", component: WebDevelopmentComponent},

@@ -1,40 +1,95 @@
-.navigationBar {
+.navBar {
   background-color: #f6c73b;
-  
-}
+ }
 
-.railworld {
-  clip-path: polygon(0 0, 59% 0, 100% 100%, 0% 100%);
-  background-color: aliceblue;
-  width: 250px;
- height: 80px;
+.rwLogo {
+  background-color: white;
+  padding: 0%;
+  margin: -3% 0% -5% -0%;
+  clip-path: polygon(0 0, 50% 0%, 100% 100%, 0% 100%);
+  width: 200px;
+  height: 100px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 ul li a {
   color: #252630;
-  font-size: 22.376px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 28.383px;
 }
 
-.right {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 20px;
-  height: 51px;
+ul li a:hover {
+  scale: 0.9;
+  font: bolder;
+  behavior: smooth;
+  text-decoration: underline;
+}
+
+
+.nav-one{
+  background-color: #2E2E2E;
   color: white;
-  background-color: #2e2e2e;
+  padding: 10px 10px ;
+
+  position: relative;
+ 
 }
 
-.contact {
+.right{
   display: flex;
-  gap: 5px;
-  cursor: pointer;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
 }
 
-.email {
-  display: flex;
-  gap: 5px;
-  cursor: pointer;
+.services {
+  background-color: #f6c73b;
+  border: none;
+  text-align: center;
+  
+}
+
+.services li a {
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .rwLogo {
+   
+    padding: 0%;
+    margin: -4.5% 5% 0 0%;
+    clip-path: polygon(0 0, 50% 0%, 100% 100%, 0% 100%);
+    width: 200px;
+    height: 100px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .rwLogo {
+   
+    clip-path: none;
+    width: 200px;
+    height: 100px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  
+
+  
 }
