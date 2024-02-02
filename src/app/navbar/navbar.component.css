@@ -1,0 +1,95 @@
+.navBar {
+  background-color: #f6c73b;
+ }
+
+.rwLogo {
+  background-color: white;
+  padding: 0%;
+  margin: -3% 0% -5% -0%;
+  clip-path: polygon(0 0, 50% 0%, 100% 100%, 0% 100%);
+  width: 200px;
+  height: 100px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+ul li a {
+  color: #252630;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+ul li a:hover {
+  scale: 0.9;
+  font: bolder;
+  behavior: smooth;
+  text-decoration: underline;
+}
+
+
+.nav-one{
+  background-color: #2E2E2E;
+  color: white;
+  padding: 10px 10px ;
+
+  position: relative;
+ 
+}
+
+.right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.services {
+  background-color: #f6c73b;
+  border: none;
+  text-align: center;
+  
+}
+
+.services li a {
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .rwLogo {
+   
+    padding: 0%;
+    margin: -4.5% 5% 0 0%;
+    clip-path: polygon(0 0, 50% 0%, 100% 100%, 0% 100%);
+    width: 200px;
+    height: 100px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .rwLogo {
+   
+    clip-path: none;
+    width: 200px;
+    height: 100px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  
+
+  
+}
