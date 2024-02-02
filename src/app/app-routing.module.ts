@@ -14,7 +14,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes = [
 
- 
+  {path: "", component:LandingPageComponent },
   {path: "home", component:LandingPageComponent },
   {path: "careers", component: CareerPageComponent},
   {path: "about-us", component: AboutUsComponent},
