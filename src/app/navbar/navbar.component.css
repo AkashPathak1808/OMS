@@ -1,0 +1,144 @@
+.contact,
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navBar {
+  background-color: #f6c73b;
+}
+
+.imgbgc{
+  background-color: white;
+  padding: 0%;
+  margin: -42px 0px -5px -80px;
+  clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 98px;
+ 
+}
+
+.rwLogo {
+  width: 300px;
+  height: 100px;
+
+  position: absolute;
+  top: 0;
+  left: 12%;
+ 
+}
+
+ul li a {
+  color: #252630;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+ul li a:hover {
+  scale: 0.9 smooth;
+  font: bolder;
+}
+
+.nav-one {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 10px 10px;
+
+  position: relative;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.services {
+  background-color: #ffffff;
+  border: none;
+  text-align: center;
+}
+
+.services li a {
+  color: rgb(0, 0, 0);
+}
+
+.userProfile {
+  margin-top: -7px;
+  width: 30px;
+} 
+
+
+
+@media screen and (max-width: 769px) {
+  
+  .imgbgc{
+    background-color: white;
+    padding: 0%;
+    margin: -42px 0px -5px -80px;
+    clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+  height: 98px;
+   
+  }
+  
+  .rwLogo {
+    width: 300px;
+    height: 100px;
+  
+    position: absolute;
+    top: 0;
+    left: 12%;
+   
+  }
+
+  .services {
+    background-color: #ffffff;
+  }
+
+  .div {
+    background-color: #f6d46f;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+
+  
+}
+
+@media screen and (max-width: 426px) {
+  
+  .rwLogo {
+    background-color: white;
+    padding: 0%;
+    margin: -44px 0px -9px 0px;
+    clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
+    width: 150px;
+    height: 100px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+ .contact span{
+  font-size: 9px;
+ }
+
+ .email span{
+  font-size: 9px;
+ }
+  
+}

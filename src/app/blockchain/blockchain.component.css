@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .fsBlockchain {
     background-image: url('../../assets/Blockchain/fsbg.svg');
@@ -22,6 +23,7 @@
     font-size: 48px;
     font-weight: 900;
     line-height: 118%;
+    font-family: "Nico Moji";
 }
 
 .fsSecondPara {
@@ -119,7 +121,7 @@
 }
 
 .ssImg img {
-    width: 550px;
+    width: 500px;
 }
 
 .card {
@@ -132,7 +134,8 @@
 .card:hover {
     background-color: rgba(12, 188, 139, 0.36);
     transition-duration: 800ms;
-    padding: 6% 5%;
+    padding: 3%;
+    box-shadow: 3px 3px 10px 3px #a79090;
 }
 
 .col-10 h6 {
@@ -233,7 +236,7 @@
     }
 
     .ssImg img {
-        width: 300px;
+        width: 240px;
     }
 
     .card {
