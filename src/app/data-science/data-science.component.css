@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .fsDataScience {
     background-image: url('../../assets/Data_Science/bg1.svg');
@@ -22,6 +23,7 @@
     font-size: 48px;
     font-weight: 900;
     line-height: 118%;
+    font-family: "Nico Moji";
 }
 
 .fsSecondPara {
@@ -132,7 +134,8 @@
 .card:hover {
     background-color: rgba(146, 53, 1, 0.49);
     transition-duration: 800ms;
-    padding: 6% 5%;
+    padding: 3%;
+    box-shadow: 3px 3px 10px 3px #a79090;
 }
 
 .col-10 h6 {
@@ -168,7 +171,7 @@
         font-size: 14px;
     }
 
-    .fsImg img{
+    .fsImg img {
         width: 400px;
         margin: 10% 0 3%;
     }
@@ -202,7 +205,7 @@
 
 }
 
-@media screen and (max-width: 768px) {    
+@media screen and (max-width: 768px) {
 
     .card {
         height: 300px;
