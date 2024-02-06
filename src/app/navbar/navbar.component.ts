@@ -11,6 +11,7 @@ export class NavbarComponent {
 
   railworld = 'assets/navbarImg/railworld.svg';
   call = 'assets/navbarImg/call.svg';
+  mail = 'assets/navbarImg/mail.svg';
   
 
 
