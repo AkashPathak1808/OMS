@@ -20,8 +20,9 @@ h3 {
 
 .buildFuture {
   color: #000;
-  font-size: 3.125rem;
+  font-size: 3rem;
   font-weight: 400;
+  line-height: 80px;
   letter-spacing: 3.2px;
 }
 
@@ -36,7 +37,6 @@ h3 {
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(128, 0, 128, 0.1);
-
   background-image: url("../../assets/CareerPageImg/circlescatter.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,14 +44,19 @@ h3 {
 
 .joinUs {
   color: #000;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 300;
+  line-height: 59px;
+  letter-spacing: 2.2px;
 }
 
 .f_technology {
   color: #000;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 500;
+  line-height: 59px;
+  letter-spacing: 4px;
+  padding-right: 15%;
 }
 
 .rwi {
@@ -60,73 +65,117 @@ h3 {
   font-weight: 300;
   letter-spacing: 1.2px;
   text-align: start;
-}
-
-.future {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  line-height: 47px;
+  letter-spacing: 1.2px;
 }
 
 /* Section 3 */
 .thirdSec {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   background-image: url("../../assets/CareerPageImg/background.svg");
 }
 
 .innovation {
   color: #fff;
-  font-size: 3.25rem;
+  font-size: 2.8rem;
   font-weight: 300;
+  line-height: 79px;
+  letter-spacing: 5.2px;
 }
 
 .destination {
   color: #fff;
   font-family: "Inter";
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 1.6px;
 }
 
 .g_future {
-  padding: 20% 0%;
+  padding-top: 15%;
 }
 
-@media screen and (max-width: 992px) {
+.button {
+  border-radius: 40px;
+  background: #4bab9f;
+  max-width: fit-content;
+  color: #fff;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  padding: 3% 6%;
+  float: right;
+  margin-bottom: 5%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.image3{
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
   .image2 {
-    margin-top: 30%;
+    margin-top: 13%;
   }
 }
 
 @media screen and (max-width: 768px) {
   h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .buildFuture {
-    font-size: 2.8rem;
+    font-size: 2rem;
+    line-height: 40px;
   }
 
   .underline {
     width: 12rem;
     height: 20px;
   }
-}
-
-@media screen and (max-width: 550px) {
-
-  h3 {
-    font-size: 2.5rem;
-  }
-
-  .buildFuture {
-    font-size: 2.5rem;
-  }
 
   .innovation {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .destination {
     font-size: 1.5rem;
+  }
+
+  .g_future {
+    padding: 5% 0%;
+  }
+
+  .button {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .buildFuture {
+    font-size: 2rem;
+  }
+
+  .innovation {
+    font-size: 1.5rem;
+  }
+
+  .destination {
+    font-size: 1.2rem;
+  }
+
+  .f_technology {
+    font-size: 1.2rem;
+  }
+
+  .button {
+    float: left;
   }
 }

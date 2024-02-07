@@ -11,27 +11,4 @@ export class SoftwareDevelopmentComponent {
   img3 = "assets/Software_Development/sd3.svg";
   line = "assets/Software_Development/line.svg";
   box = "assets/Software_Development/box.svg";
-
-  constructor(private router: Router) { }
-
-  redirectToIos() {
-    this.router.navigate(['/service/ios'])
-  }
-
-  redirectToAndroid() {
-    this.router.navigate(['/service/android'])
-  }
-
-  redirectToAppDevelopment() {
-    this.router.navigate(['/service/app-development'])
-  }
-
-  redirectToSoftwareDevelopment() {
-    this.router.navigate(['/service/ios'])
-  }
-
-  redirectToWebDevelopment() {
-    this.router.navigate(['/service/ios'])
-  }
-
 }

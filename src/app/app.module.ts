@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {WebDevelopmentComponent} from './web-development/web-development.component';
+import { WebDevelopmentComponent } from './web-development/web-development.component';
 import { IosDevelopmentComponent } from './ios-development/ios-development.component';
 import { SoftwareDevelopmentComponent } from './software-development/software-development.component';
 import { DataScienceComponent } from './data-science/data-science.component';
@@ -16,11 +17,21 @@ import { FooterComponent } from './footer/footer.component';
 import { JobDeskComponent } from './job-desk/job-desk.component';
 import { AppDevelopmentComponent } from './app-development/app-development.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+<<<<<<< HEAD
 import { SignupPageComponent } from './signup-page/signup-page.component';
+=======
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+>>>>>>> 4444f43eb537b26542cc2173e82912e587926453
 
 @NgModule({
   declarations: [
     AppComponent,
+
+    LandingPageComponent,
     WebDevelopmentComponent,
     IosDevelopmentComponent,
     SoftwareDevelopmentComponent,
@@ -29,21 +40,23 @@ import { SignupPageComponent } from './signup-page/signup-page.component';
     AiMlComponent,
     CareerPageComponent,
     AboutUsComponent,
-    UiUxComponent,
-    UiUxComponent,
     FooterComponent,
     JobDeskComponent,
-    UiUxComponent,  
-    FooterComponent,
-    JobDeskComponent,
+    UiUxComponent,
     AppDevelopmentComponent,
     ContactUsComponent,
+<<<<<<< HEAD
     SignupPageComponent
+=======
+    NavbarComponent,
+>>>>>>> 4444f43eb537b26542cc2173e82912e587926453
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
