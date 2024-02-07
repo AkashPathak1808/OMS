@@ -1,0 +1,36 @@
+.container {
+    border: 6px solid rgb(28, 6, 151); 
+    padding: 20px;
+    margin: 85px 85px; 
+    border-radius: 10px; 
+  }
+  
+  .signupform {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welhead {
+    color: #007bff;
+}
+
+.paraline {
+    color: #6c757d;
+}
+
+.signuppic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.forgot-password {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}

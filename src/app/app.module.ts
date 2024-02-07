@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { JobDeskComponent } from './job-desk/job-desk.component';
 import { AppDevelopmentComponent } from './app-development/app-development.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { SignupPageComponent } from './signup-page/signup-page.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FooterComponent,
     JobDeskComponent,
     AppDevelopmentComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    SignupPageComponent
   ],
   imports: [
     BrowserModule,
