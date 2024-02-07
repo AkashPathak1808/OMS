@@ -5,10 +5,10 @@
         <img [src]="signup" alt="signup" />
       </div>
     </div>
-    <div class="col-md-6">
+    <div class=" signupform col-md-6">
       <h1 class="welhead">Welcome!!</h1>
       <p class="paraline">Please enter your username and password.</p>
-      <form>
+      <form class="form">
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
@@ -29,13 +29,16 @@
             placeholder="Password"
           />
         </div>
-        <div class="form-group form-check">
+        <div class="form-group1 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1" />
           <label class="form-check-label" for="exampleCheck1"
             >Remember me</label
           >
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="mb-3 text-end">
+          <a href="#" class="btn btn-link">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn btn-primary">sign in</button>
       </form>
     </div>
   </div>
