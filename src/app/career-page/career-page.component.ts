@@ -10,10 +10,12 @@ export class CareerPageComponent {
   image2 =  'assets/CareerPageImg/image2.svg';
   image3 =  'assets/CareerPageImg/image3.svg';
   image4 =  'assets/CareerPageImg/image3.jpg';
+  image5 =  'assets/CareerPageImg/image5.jpg';
   careerpagewave =  'assets/CareerPageImg/careerpagewave.svg';
   underline =  'assets/CareerPageImg/underline.svg';
   background =  'assets/CareerPageImg/background.svg';
   circlescatter =  'assets/CareerPageImg/circlescatter.svg';
+  innovation =  'assets/CareerPageImg/innovation.png';
 
   
 }

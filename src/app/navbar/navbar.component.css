@@ -3,15 +3,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .navBar {
   background-color: #f6c73b;
 }
 
-.imgbgc{
-  background-color: white;
+.imgbgc {
+  background-color: #f7fcfb;
   padding: 0%;
   margin: -42px 0px -5px -80px;
   clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
@@ -20,7 +20,6 @@
   left: 0;
   width: 370px;
   height: 98px;
- 
 }
 
 .rwLogo {
@@ -30,7 +29,6 @@
   position: absolute;
   top: 0;
   left: 12%;
- 
 }
 
 ul li a {
@@ -56,7 +54,7 @@ ul li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 15px;
 }
 
 .services {
@@ -72,73 +70,119 @@ ul li a:hover {
 .userProfile {
   margin-top: -7px;
   width: 30px;
-} 
+}
 
-
+.menus {
+  margin-top: 20px;
+}
 
 @media screen and (max-width: 769px) {
-  
-  .imgbgc{
-    background-color: white;
+  .imgbgc {
+    background-color: #f7fcfb;
     padding: 0%;
     margin: -42px 0px -5px -80px;
     clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
     position: absolute;
     top: 0;
     left: 0;
-    width: 370px;
-  height: 98px;
-   
-  }
-  
-  .rwLogo {
     width: 300px;
+    height: 98px;
+  }
+
+  .rwLogo {
+    width: 150px;
     height: 100px;
-  
+
     position: absolute;
     top: 0;
-    left: 12%;
-   
+    left: 29%;
   }
 
   .services {
-    background-color: #ffffff;
+    background-color: #f6c73b;
   }
 
   .div {
-    background-color: #f6d46f;
+    background-color: #f6c73b;
     margin-top: 5px;
     margin-bottom: -10px;
     margin-right: -10px;
     margin-left: 0px;
-    padding-left: 0px;
   }
-  
-
-  
 }
 
 @media screen and (max-width: 426px) {
-  
-  .rwLogo {
-    background-color: white;
+  .imgbgc {
+    background-color: #f7fcfb;
     padding: 0%;
-    margin: -44px 0px -9px 0px;
+    margin: -42px 0px -5px -80px;
     clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
-    width: 150px;
-    height: 100px;
-  
     position: absolute;
     top: 0;
     left: 0;
+    width: 250px;
+    height: 98px;
   }
 
- .contact span{
-  font-size: 9px;
- }
+  .rwLogo {
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+  }
 
- .email span{
-  font-size: 9px;
- }
+  .contact span {
+    font-size: 12px;
+  }
+
+  .email span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .imgbgc {
+    background-color: #f7fcfb;
+    padding: 0%;
+    margin: -42px 0px -5px -80px;
+    clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 98px;
+  }
+
+  .rwLogo {
+    width: 120px;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 33%;
+  }
+
+  .contact span {
+    font-size: 10px;
+  }
+
+  .email span {
+    font-size: 10px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 321px){
   
+  .contact span {
+    font-size: 8px;
+  }
+
+  .email span {
+    font-size: 8px;
+  }
+
 }
