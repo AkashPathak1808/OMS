@@ -22,7 +22,6 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
 
 @NgModule({
   declarations: [
@@ -42,8 +41,7 @@ import { ResetpasswordComponent } from './resetpassword/resetpassword.component'
     AppDevelopmentComponent,
     ContactUsComponent,
     SignupPageComponent,
-    NavbarComponent,
-    ResetpasswordComponent
+    NavbarComponent
   ],
   imports:[
     BrowserModule,
