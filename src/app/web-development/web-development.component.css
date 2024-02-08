@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
 
 
 /* part1 */
@@ -23,9 +24,9 @@
 }
 
 .head-text {
+  font-family: "Nico Moji";
   color: #6EA731;
   white-space: nowrap;
-  font-family: poppins;
   font-weight: bold;
   line-height: 120%;
 }
