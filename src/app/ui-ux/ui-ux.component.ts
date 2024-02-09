@@ -10,4 +10,5 @@ export class UiUxComponent {
   img2 = "assets/UI_UX/img2.gif";
   line = "assets/Software_Development/line.svg";
   box = "assets/UI_UX/box.svg";
+  tree = "assets/UI_UX/tree.svg"
 }
