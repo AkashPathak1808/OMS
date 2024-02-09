@@ -42,7 +42,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ContactUsComponent,
     SignupPageComponent,
     NavbarComponent
-  ],
+   ],
   imports:[
     BrowserModule,
     AppRoutingModule,
