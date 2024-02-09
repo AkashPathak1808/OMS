@@ -1,32 +1,32 @@
 <!-- first section -->
 
 <div class="bck">
-  <div class="container ">
-    <div class="row">
-
-      
+  <div class="container">
+    <div class="row row1">
       <div class="col-md-6 image1">
         <img [src]="imagepath1" alt="" />
       </div>
 
       <div class="col-md-6 box">
         <p class="firstpara">~Feel Free</p>
-        <h1>Contact Us <br />anytime</h1>
-        <p class="secondpara">Never hesitate for any kind of inquires</p>
+        <h1>Contact Us anytime</h1>
+        <p class="secondpara"><b>Never hesitate for any kind of inquires</b></p>
       </div>
 
-      <div class="tree-box">
-        <div class="tree-container">
-          <img class="img-tree1" [src]="treeImg2" alt="tree-1" />
-          <img class="img-tree1" [src]="treeImg2" alt="tree-2" />
-          <img class="img-tree1" [src]="treeImg2" alt="tree-3" />
-        </div>
-        <div class=".tree-container-copy">
-          <img class="img-tree1-copy" [src]="treeImg2" alt="tree-1" />
-          <img class="img-tree1-copy" [src]="treeImg2" alt="tree-2" />
-          <img class="img-tree1-copy" [src]="treeImg2" alt="tree-3" />
-        </div>
-      </div>
+      <!-- <div class="row">
+              <div class="tree-box">
+                  <div class="tree-container">
+                      <img class="img-tree1" [src]="treeImg2" alt="tree-1" />
+                      <img class="img-tree1" [src]="treeImg2" alt="tree-2" />
+                      <img class="img-tree1" [src]="treeImg2" alt="tree-3" />
+                  </div>
+                  <div class=".tree-container-copy">
+                      <img class="img-tree1-copy" [src]="treeImg2" alt="tree-1" />
+                      <img class="img-tree1-copy" [src]="treeImg2" alt="tree-2" />
+                      <img class="img-tree1-copy" [src]="treeImg2" alt="tree-3" />
+                  </div>
+              </div>
+          </div> -->
     </div>
   </div>
 </div>
@@ -36,123 +36,165 @@
   <h1>Support</h1>
 
   <div class="bck2 container">
+    <div class="bubble-img">
       <div class="container text-center">
-          <ul class="nav nav- mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
-              <li class="nav-item btn1" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                      data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                      aria-selected="true">
-                      Customer Support
-                  </button>
-              </li>
-              <li class="nav-item btn2" role="presentation">
-                  <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill"
-                      data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                      aria-selected="false">
-                      Inquiry
-                  </button>
-              </li>
-          </ul>
+        <ul
+          class="nav nav- mb-3 d-flex justify-content-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item btn1" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Customer Support
+            </button>
+          </li>
+          <li class="nav-item btn2" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              Inquiry
+            </button>
+          </li>
+        </ul>
 
-          <div class="row">
-              <div class="tab-content col-lg-6 col-12 p-5" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                      aria-labelledby="pills-home-tab">
-                      <div class="row">
-                          <div class="col customerSupport">
-                              <h1 class="service">Customer Support</h1>
-                              <p class="service3">
-                                  To get instant help, fill the query & send the messages. OR
-                              </p>
-                              <p class="service3">To reach us by phone, tap below</p>
-                              <h1 class="service">
-                                  <span class="logo"><img [src]="imagepath2" alt="" />Contact Us</span>
-                              </h1>
-                              <p class="service2"><u>+91-7714038148</u></p>
-                              <p class="service2"><u>+91-9289921221</u></p>
-                              <p class="service2">
-                                  <span class="logo2"><img [src]="imagepath3" alt="" />Email us at</span>
-                              </p>
-                              <p class="service2"><u>info@railworld.co.in</u></p>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                      aria-labelledby="pills-profile-tab">
-                      <div class="row">
-                          <div class="col-md-6">
-                              <h1 class="service">Inquiry</h1>
-                              <p class="service3">
-                                  To get instant help, fill the query & send the messages. OR
-                              </p>
-                              <p class="service3">To reach us by phone, tap below </p>
-                             
-                              <h1 class="service">
-                                  <span class="logo"><img [src]="imagepath2" alt="" />Contact Us</span>
-                              </h1>
-                              <p class="service2"><u>+91-7714038148</u></p>
-                              <p class="service2"><u>+91-9289921221</u></p>
-                              <p class="service2">Get on board as a merchant</p>
-                              <p class="service3">Start your required services with railworld & grow your business.</p>
-                              <p class="service2">
-                                  <span class="logo2"><img [src]="imagepath3" alt="" />Email us at</span>
-                              </p>
-                              <p class="service2"><u>info@railworld.co.in</u></p>
-                              <p class="service3">We'll get back to you within</p>
-                          </div>
-                      </div>
-                  </div>
+        <div class="row">
+          <div class="tab-content col-lg-6 col-12 p-5" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <div class="row">
+                <div class="col customerSupport">
+                  <h1 class="service">Customer Support</h1>
+                  <p class="service3">
+                    To get instant help, fill the query & send the messages. OR
+                  </p>
+                  <p class="service3">To reach us by phone, tap below</p>
+                  <h1 class="service">
+                    <span class="logo"
+                      ><img [src]="imagepath2" alt="" /> &nbsp;Contact Us</span
+                    >
+                  </h1>
+                  <p class="service2"><u>&nbsp;+91-7714038148</u></p>
+                  <p class="service2"><u>&nbsp;+91-9289921221</u></p>
+                  <p class="service2">
+                    <span class="logo2"
+                      ><img [src]="imagepath3" alt="" /> &nbsp;Email us at</span
+                    >
+                  </p>
+                  <p class="service2"><u>info@railworld.co.in</u></p>
+                </div>
               </div>
+            </div>
 
-              <div class="main2">
-                  <div class="col-12 col-lg-8">
-                      <h2 class="text-primary heading mb-5">
-                          <u class="headclr">Send Queries</u>
-                      </h2>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <div class="row">
+                <div class="col-md-6 inquirybox">
+                  <h1 class="service">Inquiry</h1>
+                  <p class="service3">
+                    To get instant help, fill the query & send the messages. OR
+                  </p>
+                  <p class="service3">To reach us by phone, tap below</p>
 
-                      <form>
-                          <div class="form-row row">
-                              <div class="form-group col-md-6 col-lg-6">
-                                  <input type="text" class="form-control" id="yourName" />
-                                  <label for="yourName">Your Name</label>
-                              </div>
-                              <div class="form-group col-md-6 col-lg-6">
-                                  <input type="email" class="form-control" id="yourEmail" />
-                                  <label for="yourEmail">Your Email</label>
-                              </div>
-                          </div>
-                          <div class="form-group">
-                              <input type="text" class="form-control" id="subject" />
-                              <label for="subject">Subject</label>
-                          </div>
-                          <div class="form-group">
-                              <textarea class="form-control" id="message" rows="8"></textarea>
-                              <label for="message">Message...</label>
-                          </div>
-                          <button type="submit" class="btn btn-primary submt">
-                              Send Message
-                          </button>
-                      </form>
-                  </div>
+                  <h1 class="service">
+                    <span class="logo"
+                      ><img [src]="imagepath2" alt="" />&nbsp;Contact Us</span
+                    >
+                  </h1>
+                  <p class="service2"><u>+91-7714038148</u></p>
+                  <p class="service2"><u>+91-9289921221</u></p>
+                  <p class="service2">Get on board as a merchant</p>
+                  <p class="service3">
+                    Start your required services with railworld & grow your
+                    business.
+                  </p>
+                  <p class="service2">
+                    <span class="logo2"
+                      ><img [src]="imagepath3" alt="" />&nbsp; Email us at</span
+                    >
+                  </p>
+                  <p class="service2"><u>info@railworld.co.in</u></p>
+                  <p class="service3">We'll get back to you within</p>
+                </div>
               </div>
+            </div>
           </div>
+
+          <div class="main2">
+            <div class="col">
+              <h2 class="text-primary heading mb-5">
+                <u class="headclr">Send Queries</u>
+              </h2>
+
+              <form>
+                <div class="form-row row">
+                  <div class="form-group col-md-6 col-lg-6">
+                    <input type="text" class="form-control" id="yourName" />
+                    <label for="yourName">Your Name</label>
+                  </div>
+                  <div class="form-group col-md-6 col-lg-6">
+                    <input type="email" class="form-control" id="yourEmail" />
+                    <label for="yourEmail">Your Email</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="subject" />
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="8"
+                  ></textarea>
+                  <label for="message">Message...</label>
+                </div>
+                <button type="submit" class="btn btn-primary submt">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-        
+    </div>
   </div>
 </div>
 
 <!-- address -->
 
 <div class="address">
-  <div class="container ">
+  <div class="container">
     <div class="row">
-      <div class="col-md-6 parag">
+      <div class="col-md-7 parag">
         <h1>Address</h1>
         <h3>Registered Office</h3>
         <p>
-          55, 2nd Floor, Lane-2 Saidulajab, Near Saket Metro Station Gadaipur New
-          Delhi South West Delhi - 110030
+          55, 2nd Floor, Lane-2 Saidulajab, Near Saket Metro Station Gadaipur
+          New Delhi South West Delhi - 110030
         </p>
         <h3>Head Office</h3>
         <p>
@@ -166,17 +208,14 @@
         <h3>Our Upcoming Branches</h3>
         <p>Bhopal</p>
       </div>
-  
-      <div class="col-md-6 map text-center">
-        <iframe  
+
+      <div class="col-md-5 map text-center">
+        <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.7708330836927!2d81.68158057477488!3d21.24093418045824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd36c9094f8d%3A0x9b52fe998fc169b4!2sMagneto%20The%20Mall!5e0!3m2!1sen!2sin!4v1704404645516!5m2!1sen!2sin"
         ></iframe>
       </div>
     </div>
   </div>
 </div>
-
-
-
 
 
