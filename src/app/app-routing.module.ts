@@ -13,6 +13,7 @@ import { CareerPageComponent } from './career-page/career-page.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { JobDeskComponent } from './job-desk/job-desk.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { SignupPageComponent } from './signup-page/signup-page.component';
 
 const routes: Routes = [
 
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path: "about-us", component: AboutUsComponent},
   {path: "job-desk", component: JobDeskComponent},
   {path: "contact-us", component: ContactUsComponent},
-
+  {path: "singnup" ,component: SignupPageComponent},
+ 
 
 
   {path: "service/ios", component: IosDevelopmentComponent},
@@ -34,6 +36,8 @@ const routes: Routes = [
   {path: "service/data-science", component: DataScienceComponent},
   {path: "service/ai-ml-development", component: AiMlComponent},
   {path: "service/blockchain", component: BlockchainComponent},
+
+  {path: '**', redirectTo: 'home'},
 
 
 
