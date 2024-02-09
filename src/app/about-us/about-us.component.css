@@ -80,6 +80,7 @@
   float: left;
   margin-right: 2%;
   width: 390px;
+  height: 350px;
 }
 
 @media screen and (max-width: 768px) {
@@ -92,20 +93,39 @@
     text-align: center;
     font-size: 2rem;
   }
+
+  .image1{
+   margin-right: 2%;
+   
+  }
+
+
+
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 426px) {
+ .image1 ,.image2 ,.image3 ,.image4{
+  float: left;
+ }
+
+ .image1{
+  width: 400px;
+ }
+ 
+}
+
+@media screen and (max-width: 376px) {
   .image1 {
     width: 350px;
     margin: 0 auto;
   }
 
   .image3 {
-    width: 300px;
+    width: 350px;
   }
 
   .image4 {
-    width: 350px;
+    width: 340px;
   }
 
   .whyChooseUs {
@@ -121,7 +141,9 @@
   }
 }
 
-
-@media screen and (max-width: 425px) {
-
+@media screen and (max-width: 321px){
+  .image1 ,.image2 ,.image3 ,.image4{
+    width: 285px;
+   }
 }
+

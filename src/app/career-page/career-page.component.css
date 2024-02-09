@@ -301,4 +301,15 @@ h3 {
   .image2 {
     width: 250px;
   }
+
+  .f_technology {
+    font-size: 1.2rem;
+    line-height: 30px;
+
+    margin-bottom: 2%;
+  }
+
+  .innovation{
+    line-height: 42px;
+  }
 }
