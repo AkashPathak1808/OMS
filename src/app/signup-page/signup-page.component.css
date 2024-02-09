@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Hammersmith+One&family=Kalam:wght@300;400&family=Poppins&family=Work+Sans&display=swap');
+
+.conta1 {
+    border: 12px solid rgb(28, 6, 151);
+    padding: 20px;
+    margin: 85px 35px;
+}
+
+.signupcontainer {
+    padding: 0% 4%;
+}
+
+.signupform {
+    padding: 2%;
+}
+
+
+
+.form {
+    margin: 30px 1px;
+}
+
+.welhead {
+    font-weight: bold;
+    font-size: 2em;
+    color: #0B2F64;
+    text-align: center;
+}
+
+.paraline {
+    font-family: Work Sans;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #636364;
+
+}
+
+.form-group {
+    margin: 22px 0px;
+}
+
+.form-group,
+label {
+    color: #181818;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+}
+
+input {
+    border: 2px solid #2C61A3;
+}
+
+.forgot-password {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.forgetpwd {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    color: #181818;
+    text-decoration: none;
+}
+
+.forgetpwd a {
+    font-family: Poppins;
+}
+
+.form-check-label {
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: #2C61A3;
+}
+
+/* modal forget password css */
+
+.container1 {
+    background-color: #FFFFFF;
+    border: 3px solid rgba(11, 47, 100, 1);
+    justify-content: center;
+    text-align: center;
+}
+
+/* .container1:hover {
+    border-color: rgb(43, 164, 234);
+} */
+
+.reset {
+    color: #181818;
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 2.1em;
+}
+
+.btns {
+    margin: 1em 1em;
+    padding: 2%;
+    border-radius: 0.5em;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2C61A3;
+}
+
+@media screen and (max-width: 992px) {
+    .fsImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .signuppic img{
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .conta1 {
+        border: 5px solid rgb(28, 6, 151);
+        margin: 30px 15px;
+    }
+
+
+    .signupcontainer {
+        padding: 0% 4%;
+    }
+
+    .signupform {
+        padding: 0%;
+    }
+
+    .reset {
+        font-size: 1.5em;
+    }
+}

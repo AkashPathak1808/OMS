@@ -17,16 +17,15 @@ import { FooterComponent } from './footer/footer.component';
 import { JobDeskComponent } from './job-desk/job-desk.component';
 import { AppDevelopmentComponent } from './app-development/app-development.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { SignupPageComponent } from './signup-page/signup-page.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-
 @NgModule({
   declarations: [
     AppComponent,
-
     LandingPageComponent,
     WebDevelopmentComponent,
     IosDevelopmentComponent,
@@ -41,9 +40,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     UiUxComponent,
     AppDevelopmentComponent,
     ContactUsComponent,
-    NavbarComponent,
-  ],
-  imports: [
+    SignupPageComponent,
+    NavbarComponent
+   ],
+  imports:[
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

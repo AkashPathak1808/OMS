@@ -129,7 +129,7 @@
 }
 
 .card {
-    height: 220px;
+    height: 240px;
     padding: 5% 3%;
     margin: 2% 0;
     background-color: rgba(250, 250, 250, 1);
@@ -207,6 +207,11 @@
 @media screen and (max-width: 768px) {
     .card {
         height: 300px;
+    }
+
+    .col-10 p {
+        font-size: 14px;
+        line-height: 150%;
     }
 
     .col-10 h6 {
