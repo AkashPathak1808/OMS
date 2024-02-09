@@ -35,6 +35,8 @@ const routes: Routes = [
   {path: "service/ai-ml-development", component: AiMlComponent},
   {path: "service/blockchain", component: BlockchainComponent},
 
+  {path: '**', redirectTo: 'home'},
+
 
 
 ];
