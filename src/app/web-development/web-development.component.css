@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
 
 
 /* part1 */
@@ -23,9 +24,9 @@
 }
 
 .head-text {
+  font-family: "Nico Moji";
   color: #6EA731;
   white-space: nowrap;
-  font-family: poppins;
   font-weight: bold;
   line-height: 120%;
 }
@@ -107,8 +108,6 @@
 .img-lady {
   align-items: center;
   justify-content: center;
-  /* margin-top: 65px;
-  margin-left: 95px; */
   max-width: 100%;
   height: auto;
 }
@@ -138,32 +137,23 @@
   margin: 10px auto;
 }
 
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .serviceLink {
   border-radius: 10px;
-  background: rgba(112, 191, 27, 0.43);
-  padding: 0.6% 0%;
-  margin: 1%;
-  font-family: poppins;
+  background-color: rgba(127, 175, 77, 0.6);
+  padding: 0.2% 2%;
+  margin: 0.3% 5%;
+  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   line-height: normal;
   text-decoration: none;
-  color: black;
-  width: 210px;
-  height: 59px;
-  text-align: center;
-  transition: all 0.6s;
+  color: #000;
+  transition: all 0.6s ease;
 }
 
 .serviceLink:hover {
-  background-color:rgb(173, 233, 255);
+  background-color: rgb(167, 254, 255);
   cursor: pointer;
 }
 
@@ -197,7 +187,7 @@
 }
 
 .rectangle-box {
-  height: 269px;
+  height: 323px;
   padding: 5% 3%;
   margin: 2% 0;
   background-color: rgba(250, 250, 250, 1);
@@ -246,18 +236,27 @@ p {
   .rectangle-box {
     height: fit-content;
   }
+
   .img-lady {
     margin: 2px 2px;
     margin-bottom: 45px;
   }
+  .col-2 img {
+   height: 42px;
+  }
 }
+
 @media screen and (max-width: 768px) {
-  .rectangle-box {
-    height: 300px;
+
+  .circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 4px;
   }
 
-  .col-2 img{
-    margin: 1px 1px;
+  .rectangle-box {
+    height: 300px;
   }
 
   .col-10 h6 {
@@ -271,9 +270,47 @@ p {
   .serviceLink {
     font-size: 13px;
   }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 4px;
+  }
+
+  .rectangle-box {
+    height: 250px;
+  }
+
+  .col-10 h6 {
+    font-size: 12px;
+  }
+
+  .col-10 p {
+    font-size: 10px;
+  }
+
+  .col-2 img {
+    height: 35px;
+   }
+  
 }
 
 @media screen and (max-width: 450px) {
+
+  .img-tree1 {
+    height: 35px;
+    margin: 4px;
+  }
+  
+  .img-tree1-copy {
+    height: 35px;
+    margin: 4px;
+  }
 
   .head-text {
     font-size: medium;
@@ -286,15 +323,25 @@ p {
   .heading {
     font-size: smaller;
   }
-  .serviceLink {
-    padding: 1px 0px;
-    margin: 5px;
-    font-size: 10px;
-    width: 180px;
-    height: 39px;
+
+  .underline {
+    height: 1px;
+    width: 25px;
   }
 
-  .serviceLink p {
-    font-size: small;
+  .container_links {
+    margin: 1% 1%;
+  }
+
+  .serviceLink {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+  .blcha{
+    height: 25px;
+    width: 30px;
   }
 }

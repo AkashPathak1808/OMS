@@ -33,7 +33,6 @@ h3 {
 
 .railworld {
   font-size: 2.5rem;
-  flex-shrink: 0;
 }
 
 .rail1 {
@@ -51,7 +50,7 @@ h3 {
   -webkit-text-fill-color: transparent;
   font-size: 2.8rem;
   font-weight: 900;
-  line-height: 59px;
+  line-height: 3.438rem;
   text-transform: capitalize;
 }
 
@@ -64,7 +63,6 @@ h3 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   font-size: 2.8rem;
   font-weight: 600;
 }
@@ -104,9 +102,11 @@ h3 {
   align-items: center;
   text-align: center;
   color: #000;
-  font-size: 2.438rem;
+  font-size: 2.45rem;
   font-weight: 400;
   margin-top: 6%;
+  padding: 0% 5%;
+  line-height: 50px;
 }
 
 /* Section 3 CSS */
@@ -150,7 +150,7 @@ h3 {
 }
 
 .information {
-  margin-top: 13%;
+ margin-top: 10%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -160,6 +160,21 @@ h3 {
   font-size: 1.3rem;
   font-weight: 700;
   text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.information a{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+  color: #57007b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+  cursor: pointer;
 }
 
 .Rightarrow {
@@ -200,7 +215,7 @@ h3 {
   font-family: "Inter";
   font-size: 2.361rem;
   font-weight: 400;
-  padding: 0% 5%;
+  line-height: 50px;
 }
 
 .working,
@@ -232,6 +247,7 @@ h3 {
   color: #1a202c;
   font-size: 2rem;
   font-weight: 600;
+  line-height: 130%;
 }
 
 .p2 {
@@ -270,7 +286,7 @@ h3 {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.13) translateX(20px);
+    transform: scale(1.1) translateX(20px);
   }
 }
 
@@ -289,7 +305,6 @@ h3 {
 
 .container7 {
   background-image: url("../../assets/LandingPageImg/gif.gif");
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -309,12 +324,13 @@ h3 {
   padding: 7% 4%;
   border: 1px solid var(--Shade-Primary-lite-bg, #e7daed);
   background: var(--Gray-gray-50, #fafafa);
+  height: 200px;
 }
 
 .cards:hover {
   cursor: pointer;
-  background: rgb(243, 218, 222);
-  transition-duration: 0.8s;
+  background: rgb(242, 206, 212);
+  transition-duration: 0.3s;
 }
 
 .cardImg {
@@ -407,6 +423,7 @@ h3 {
 }
 
 h5 {
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -425,6 +442,7 @@ h5 {
   font-weight: 700;
   color: #000;
   font-size: 2.25rem;
+  line-height: 50px;
 }
 
 .clientReview {
@@ -437,6 +455,7 @@ h5 {
   font-family: "Inter";
   font-size: 2.361rem;
   font-weight: 400;
+  line-height: 1;
 }
 
 /* Section 11 */
@@ -484,6 +503,7 @@ h5 {
   font-size: 40px;
   float: left;
 }
+
 .comma2 {
   font-weight: bolder;
   float: right;
@@ -522,6 +542,7 @@ h5 {
 
 .bestDevelopers {
   font-size: 35px;
+  line-height: 40px;
   font-weight: 700;
   background: var(
     --Gradient-dark-bg,
@@ -533,15 +554,12 @@ h5 {
 }
 
 @media screen and (max-width: 1024px) {
-  .section1 {
-    padding-bottom: 25%;
-  }
-  .programming img {
-    width: 400px;
+  .railworld {
+    font-size: 1.5rem;
   }
 
-  .section1 {
-    padding-bottom: 9%;
+  .programming img {
+    width: 400px;
   }
 
   .group img {
@@ -552,22 +570,33 @@ h5 {
   .cards {
     height: 250px;
   }
-}
-
-@media screen and (max-width: 992px) {
-  .leftpart {
-    padding-bottom: 15%;
-  }
 
   .workingwomen {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .railworld {
+    font-size: 1.5rem;
   }
 
-  .programming img {
-    width: 350px;
+  .rail1 {
+    font-size: 1.5rem;
+  }
+
+  .great {
+    font-size: 1.5rem;
+  }
+
+  .product {
+    font-size: 1.5rem;
+  }
+
+  .teams {
+    font-size: 1.5rem;
   }
 
   .section3 {
@@ -575,42 +604,34 @@ h5 {
     flex-direction: column;
   }
 
-  .groupHeading {
-    font-size: 2.2rem;
-    padding: 2% 0%;
-  }
-
-  .colleagues img {
-    margin-top: 22%;
-  }
-
-  .cards {
-    height: 320px;
+  .group img {
+    margin-top: -5%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .programming img {
-    width: 500px;
+    width: 350px;
     margin-top: 2%;
-    margin: 0 auto;
   }
 
   .secondSecHeading {
     font-size: 1.8rem;
     text-align: center;
+    padding: 0% 15%;
+    line-height: 30px;
   }
 
   .group img {
-    width: 500px;
+    margin-top: -5%;
   }
 
   .groupHeading {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
   }
 
   .softwareDevelop {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
   .hiring {
@@ -621,57 +642,94 @@ h5 {
 
   .bestDevelopers {
     text-align: center;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: 700;
   }
 
-  .clientReview {
-    font-size: 2rem;
-  }
-
   .railworld {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
   }
 
   .rail1 {
-    font-size: 2.3rem;
+    font-size: 1.6rem;
   }
 
   .great {
-    font-size: 2.3rem;
+    font-size: 1.6rem;
   }
   .product {
-    font-size: 2.3rem;
+    font-size: 1.6rem;
   }
 
   .teams {
-    font-size: 2.3rem;
-  }
-
-  .cards {
-    height: 250px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .programming img {
-    width: 280px;
-  }
-
-  .cards {
-    height: 380px;
-  }
-
-  .group img {
-    width: 300px;
+    font-size: 1.6rem;
   }
 
   .fourthSecHeading,
   .eightSecHeading,
   .sixthSecHeading {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .clientReview {
+    font-size: 1.8rem;
+  }
+
+  .clients {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+  }
+
+  .section3 {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    font-size: 2.2rem;
+  }
+
+  .colleagues {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .programming img {
+    margin-top: 10%;
+  }
+
+  .secondSecHeading {
+    font-size: 1.8rem;
+  }
+
+  .group img {
+    width: 335px;
+  }
+
+  .fourthSecHeading,
+  .eightSecHeading,
+  .sixthSecHeading {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .fourthSecHeading,
+  .eightSecHeading,
+  .sixthSecHeading {
+    font-size: 1.3rem;
+  }
+
+  .programming img {
+    width: 250px;
+    margin-top: 10%;
+  }
+
+  .group img {
+    width: 280px;
+  }
+
+  .cards {
+    height: 350px;
   }
 }

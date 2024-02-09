@@ -1,0 +1,115 @@
+<div class="con1">
+  <div class="signupcontainer">
+    <div class="conta1 row">
+      <div class="col-md-6">
+        <div class="signuppic">
+          <img [src]="signup" alt="signup" class="fsImg" />
+        </div>
+      </div>
+      <div class="signupform col-md-6">
+        <h1 class="welhead">Welcome!!</h1>
+        <p class="paraline">Please enter your username and password.</p>
+        <form class="form">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="Enter your username"
+            />
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="******"
+            />
+          </div>
+          <div class="form-group1 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Remember me</label
+            >
+          </div>
+          <div class="mb-3 text-end forgetpwd">
+            <a data-bs-toggle="modal" data-bs-target="#resetPasswordModal">
+              Forgot Password?
+            </a>
+          </div>
+          <button type="submit" class="btn w-100">Sign in</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- modal forget password -->
+
+    <div
+      class="modal fade"
+      id="resetPasswordModal"
+      tabindex="-1"
+      aria-labelledby="resetPasswordModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog container1">
+        <div class="modal-content" style="border: none">
+          <div class="modal-header row" style="border: none">
+            <h1 class="modal-title md-3 reset" id="resetPasswordModalLabel">
+              RESET YOUR PASSWORD
+            </h1>
+            <p class="md-3">
+              Please enter your email address below and click on “Send OTP”
+              button. You will recieve an OTP via email.
+            </p>
+          </div>
+
+          <div class="modal-body" style="border: none">
+            <form>
+              <div class="mb-3 text-start">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <button type="submit" class="btns">Send OTP</button>
+            </form>
+
+            <form>
+              <div class="mb-3" style="border: none">
+                <p for="exampleInputEmail2" class="form-label">
+                  Please check your emails and Enter the OTP (One Time Password)
+                  In the given Box
+                </p>
+
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail2"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter your OTP here"
+                />
+              </div>
+
+              <button type="submit" class="btns">Resend OTP</button>
+
+              <button type="submit" class="btns">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

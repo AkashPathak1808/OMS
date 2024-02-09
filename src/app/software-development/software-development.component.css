@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .fsSoftwareDev {
     background-image: url('../../assets/Software_Development/waves.svg');
@@ -22,6 +23,7 @@
     font-size: 48px;
     font-weight: 900;
     line-height: 118%;
+    font-family: "Nico Moji";
 }
 
 .fsSecondPara {
@@ -98,7 +100,7 @@
 .serviceLink {
     border-radius: 10px;
     background-color: rgba(61, 99, 234, 0.15);
-    padding: 1% 2%;
+    padding: 0.2% 2%;
     margin: 0 3% 5%;
 
     font-family: Poppins;
@@ -123,11 +125,11 @@
 }
 
 .ssImg img {
-    width: 550px;
+    width: 500px;
 }
 
 .card {
-    height: 220px;
+    height: 240px;
     padding: 5% 3%;
     margin: 2% 0;
     background-color: rgba(250, 250, 250, 1);
@@ -136,7 +138,8 @@
 .card:hover {
     background-color: #BFCCFC;
     transition-duration: 800ms;
-    padding: 6% 5%;
+    padding: 3%;
+    box-shadow: 3px 3px 10px 3px #a79090;
 }
 
 .col-10 h6 {
@@ -206,6 +209,11 @@
         height: 300px;
     }
 
+    .col-10 p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
     .col-10 h6 {
         font-size: 15px;
     }
@@ -226,7 +234,7 @@
     }
 
     .ssImg img {
-        width: 300px;
+        width: 240px;
     }
 
     .card {

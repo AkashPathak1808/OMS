@@ -1,8 +1,10 @@
+
+
 <!-- Section 1 -->
 <div class="firstSection">
   <div class="container  firstContainer">
     <marquee>
-      <h3>Welcome to Railworld India turn your ideas into product c.....</h3>
+      <h3>Welcome to Railworld India turn your ideas into products...</h3>
     </marquee>
 
 
@@ -17,9 +19,8 @@
             <span class="teams"> Teams</span>.
           </p>
 
-          <button class="button">Deal With Us</button>
+          <button class="button" routerLink="/contact-us" target="top"> Deal With Us</button>
         </div>
-
       </div>
 
       <div class="col-md-6 programming">
@@ -34,7 +35,7 @@
 <!-- Section 2 -->
 <div class="secondSection">
   <div class="container ">
-    <p class="secondSecHeading">We help build and manage a <br> team of world-class developers <br> to bring your
+    <p class="secondSecHeading">We help build and manage a team of world-class developers to bring your
       vision to life
       <img [src]="Heading" class="underline">
     </p>
@@ -64,8 +65,12 @@
               successful delivery of your project.</p>
           </div>
 
-          <div class="information">See More Information
-            <img class="Rightarrow" [src]="RightArrow">
+        
+          <div class="information" > 
+            <a href="" routerLink="/about-us" target="_top"> See More Information
+              <img class="Rightarrow" [src]="RightArrow">
+            </a> 
+           
           </div>
         </div>
 
@@ -117,7 +122,7 @@
 <div class="sixthSection">
   <div class="container ">
     <p class="sixthSecHeading">Our design and
-      <span> development approach</span>
+      <span class="develop_app"> development approach</span>
       <img [src]="Heading" class="underline">
     </p>
   </div>
@@ -369,3 +374,6 @@
   </div>
 
 </div>
+
+<app-footer></app-footer>
+
