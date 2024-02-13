@@ -111,6 +111,18 @@
  .image1{
   width: 400px;
  }
+
+ .whyChooseUs {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.itSoftware {
+  text-align: center;
+  font-size: 1.9rem;
+  line-height: 35px;
+}
+
  
 }
 
@@ -128,10 +140,7 @@
     width: 340px;
   }
 
-  .whyChooseUs {
-    font-size: 2rem;
-    text-align: center;
-  }
+
 
   .para1,
   .para2,

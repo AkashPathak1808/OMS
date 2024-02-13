@@ -464,6 +464,7 @@ h5 {
   padding: 3% 2%;
   border-radius: 30px;
   background: rgba(217, 217, 217, 0.8);
+  gap: 50px;
 }
 
 .reviewCrd {
@@ -496,6 +497,7 @@ h5 {
 
 .stars {
   text-align: center;
+
 }
 
 .comma1 {
@@ -699,7 +701,8 @@ h5 {
   }
 
   .secondSecHeading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    padding: 0% 2%;
   }
 
   .group img {
@@ -710,6 +713,56 @@ h5 {
   .eightSecHeading,
   .sixthSecHeading {
     font-size: 1.8rem;
+  }
+
+  .groupHeading{
+    font-size: 1.2rem;
+  }
+
+  .softwareDevelop{
+    font-size: 1.5rem;
+  }
+
+
+  .paragraphs{
+    font-size: 0.7rem;
+  }
+
+  .p1 {
+    font-size: 1.3rem;
+    line-height: 100%;
+  }
+
+  .p2 {
+    font-size: 0.7rem;
+  }
+
+  .p3 {
+    font-size: 0.7rem;
+  }
+
+  .clients {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  
+  .clientReview {
+    font-size:1.2rem;
+    line-height: 1;
+  }
+
+
+  
+  .name {
+    font-size: 1.2rem;
+  }
+  
+  .reviews {
+    
+    font-size: 1rem;
+  }
+  .bestDevelopers {
+    font-size: 1.5rem;
   }
 }
 
