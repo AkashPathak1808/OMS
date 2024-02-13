@@ -139,7 +139,7 @@ h3 {
   margin-top: 5%;
   font-size: 1.214rem;
   font-weight: 400;
-  line-height: 200%;
+  line-height: 150%;
   background: var(
     --Gradient-Primary-bg,
     linear-gradient(225deg, #f76680 0%, #57007b 100%)
@@ -475,10 +475,11 @@ h5 {
   .name,
   .reviews,
   .stars {
-    transform: translateY(-10px) translateX(15px);
+    transform: translateY(-10px) translateX(10px);
     transition-duration: 1s;
   }
 }
+
 
 .name {
   text-align: center;
@@ -493,6 +494,7 @@ h5 {
   font-size: 1.125rem;
   font-weight: 400;
   float: right;
+  margin-top: 15px;
 }
 
 .stars {
@@ -502,14 +504,15 @@ h5 {
 
 .comma1 {
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 30px;
   float: left;
 }
 
 .comma2 {
   font-weight: bolder;
   float: right;
-  font-size: 40px;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 .allcards {
@@ -618,7 +621,7 @@ h5 {
   }
 
   .secondSecHeading {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 0% 15%;
     line-height: 30px;
@@ -712,15 +715,17 @@ h5 {
   .fourthSecHeading,
   .eightSecHeading,
   .sixthSecHeading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .groupHeading{
     font-size: 1.2rem;
+    line-height: 30px;
   }
 
   .softwareDevelop{
     font-size: 1.5rem;
+    line-height: 30px;
   }
 
 
@@ -734,11 +739,11 @@ h5 {
   }
 
   .p2 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .p3 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .clients {
@@ -764,6 +769,16 @@ h5 {
   .bestDevelopers {
     font-size: 1.5rem;
   }
+
+  .reviewCard {
+    padding:5%;
+    margin: 0px 50px ;
+    border-radius: 30px;
+    background: rgba(217, 217, 217, 0.8);
+    gap: 50px;
+  }
+
+
 }
 
 @media screen and (max-width: 320px) {
