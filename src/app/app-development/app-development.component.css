@@ -110,8 +110,15 @@ height: 1.43rem;
 }
 
 .serviceLink {
+<<<<<<< HEAD
  border-radius: 0.62rem;
 background: rgba(246, 199, 59, 0.22);
+=======
+  /* border-radius: 10px; */
+ /* border-radius: 10px; */
+  border-radius: 0.62rem;
+  background: rgba(246, 199, 59, 0.22);
+>>>>>>> d0bb3784448704214344d5b9e32c9809ab474232
   padding: 1% 1%;
   margin: 1%;
   font-family: poppins;

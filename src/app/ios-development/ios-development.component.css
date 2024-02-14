@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
 
 
 /* part1 */
@@ -24,16 +25,17 @@
 
 .head-text {
   color: #7D00B1;
+  font-size: 3em;
   white-space: nowrap;
-  font-family: poppins;
+  font-family: "Nico Moji";
   font-weight: bold;
   line-height: 120%;
 }
 
 .para {
   color: #000;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 21px;
 }
 
@@ -139,28 +141,28 @@
   margin: 10px auto;
 }
 
-.container_links {
-  margin: 1% 3%;
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .serviceLink {
-  border-radius: 10px;
-  background-color: rgba(125, 0, 177, 0.31);
-  padding: 1% 3%;
-  margin: 1% 3%;
-  font-family: Poppins;
-  font-size: 16px;
+  border-radius: 0.62rem;
+  background: rgba(125, 0, 177, 0.31);
+  padding: 1% 1%;
+  margin: 1%;
+  font-family: poppins;
+  font-size: 0.93rem;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 400;
   line-height: normal;
   text-decoration: none;
-  color: #000;
-  transition: all 0.6s ease;
-}
-
-.serviceLink:hover {
-  background-color: rgb(167, 254, 255);
-  cursor: pointer;
+  color:black;
+  width: 13.12rem;
+  height: 3.68rem;
+  text-align:center;
+  transition: all 0.5s;
 }
 
 .serviceLink:hover {

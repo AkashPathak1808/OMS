@@ -26,6 +26,7 @@
 .head-text {
   font-family: "Nico Moji";
   color: #6EA731;
+  font-size: 3em;
   white-space: nowrap;
   font-weight: bold;
   line-height: 120%;
@@ -137,21 +138,30 @@
   margin: 10px auto;
 }
 
-.serviceLink {
-  border-radius: 10px;
-  background-color: rgba(127, 175, 77, 0.6);
-  padding: 0.2% 2%;
-  margin: 0.3% 5%;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 450;
-  line-height: normal;
-  text-decoration: none;
-  color: #000;
-  transition: all 0.6s ease;
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.serviceLink {
+  border-radius: 0.62rem;
+  background: rgba(112, 191, 27, 0.43);
+  padding: 1% 1%;
+  margin: 1%;
+  font-family: poppins;
+  font-size: 0.93rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color:black;
+  width: 13.12rem;
+  height: 3.68rem;
+  text-align:center;
+  transition: all 0.5s;
+}
+  
 .serviceLink:hover {
   background-color: rgb(167, 254, 255);
   cursor: pointer;
@@ -334,7 +344,7 @@ p {
   }
 
   .serviceLink {
-    font-size: 8px;
+    font-size: 14px;
   }
 }
 

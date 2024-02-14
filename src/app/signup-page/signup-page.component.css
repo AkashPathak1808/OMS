@@ -94,20 +94,21 @@ input {
 
 .container1 {
     background-color: #FFFFFF;
-    border: 3px solid rgba(11, 47, 100, 1);
+    border: 0.6em solid rgba(11, 47, 100, 1);
     justify-content: center;
     text-align: center;
 }
-
-/* .container1:hover {
-    border-color: rgb(43, 164, 234);
-} */
 
 .reset {
     color: #181818;
     font-family: Work Sans;
     font-weight: 500;
     font-size: 2.1em;
+}
+.btn-close {
+    margin: 1% 1%;
+    padding: 2% 1%;
+    font-size: 1rem;
 }
 
 .btns {
