@@ -150,7 +150,7 @@ h3 {
 }
 
 .information {
- margin-top: 10%;
+  margin-top: 10%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -163,8 +163,7 @@ h3 {
   cursor: pointer;
 }
 
-.information a{
- 
+.information a {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -460,26 +459,41 @@ h5 {
 
 /* Section 11 */
 
-.reviewCard {
-  padding: 3% 2%;
-  border-radius: 30px;
-  background: rgba(217, 217, 217, 0.8);
+.reviewCrd {
   gap: 50px;
 }
 
-.reviewCrd {
-  gap: 30px;
+.project-card {
+  padding: 3% 2%;
+  background: rgba(217, 217, 217, 0.8);
+  position: relative;
+  box-shadow: 0px 0px 20px #1f1f1f;
 }
 
-.reviewCard:hover {
-  .name,
-  .reviews,
-  .stars {
-    transform: translateY(-10px) translateX(10px);
-    transition-duration: 1s;
-  }
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    322deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(9, 125, 98, 0) 0%,
+    rgba(21, 112, 119, 0) 0%,
+    rgba(61, 99, 234, 0.9921218487394958) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.5s;
+  z-index: 1;
 }
 
+.project-card:hover::before {
+  transform: scaleY(1);
+}
 
 .name {
   text-align: center;
@@ -499,7 +513,6 @@ h5 {
 
 .stars {
   text-align: center;
-
 }
 
 .comma1 {
@@ -718,18 +731,17 @@ h5 {
     font-size: 1.5rem;
   }
 
-  .groupHeading{
+  .groupHeading {
     font-size: 1.2rem;
     line-height: 30px;
   }
 
-  .softwareDevelop{
+  .softwareDevelop {
     font-size: 1.5rem;
     line-height: 30px;
   }
 
-
-  .paragraphs{
+  .paragraphs {
     font-size: 0.7rem;
   }
 
@@ -750,20 +762,17 @@ h5 {
     font-size: 1.5rem;
     line-height: 30px;
   }
-  
+
   .clientReview {
-    font-size:1.2rem;
+    font-size: 1.2rem;
     line-height: 1;
   }
 
-
-  
   .name {
     font-size: 1.2rem;
   }
-  
+
   .reviews {
-    
     font-size: 1rem;
   }
   .bestDevelopers {
@@ -771,14 +780,12 @@ h5 {
   }
 
   .reviewCard {
-    padding:5%;
-    margin: 0px 50px ;
+    padding: 5%;
+    margin: 0px 50px;
     border-radius: 30px;
     background: rgba(217, 217, 217, 0.8);
     gap: 50px;
   }
-
-
 }
 
 @media screen and (max-width: 320px) {
