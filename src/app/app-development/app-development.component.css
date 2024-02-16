@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
 
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
-/* part1 */
+
 
 .con1 {
    background-image: url('../../assets/contact-us-images/app-development-first-bckground-new.svg');    
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center center; */
+  
 }
 
 .data {
@@ -26,7 +26,6 @@
 .head-text {
   color: #F6C73B;
   white-space: nowrap;
-  /* font-family: 'Kalam', cursive; */
   font-family: "Nico Moji";
   font-weight: 500;
   line-height: 120%;
@@ -44,18 +43,15 @@
 
 .circle-container {
   display: flex;
-  /* margin-left: 25px; */
   margin-left: 1.56rem;
 }
 
 .circle {
-  /* width: 50px; */
+  
   width: 3.12rem;
-  /* height: 50px; */
   height: 3.12rem;
   border-radius: 50%;
   background-color: #F6C73B;;
-  /* margin: 6px; */
   margin: 0.37rem;
 }
 
@@ -103,9 +99,7 @@
 margin-left: 48%;
 margin-top: 2%;
 margin-bottom: 1%;
-/* width: 69px; */
 width: 4.31rem;
-/* height: 23px; */
 height: 1.43rem;
 }
 
@@ -116,23 +110,21 @@ height: 1.43rem;
 }
 
 .serviceLink {
-  /* border-radius: 10px; */
- /* border-radius: 10px; */
+ border-radius: 0.62rem;
+background: rgba(246, 199, 59, 0.22);
   border-radius: 0.62rem;
   background: rgba(246, 199, 59, 0.22);
+
   padding: 1% 1%;
   margin: 1%;
   font-family: poppins;
-  /* font-size: 15px; */
   font-size: 0.93rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
   color:black;
-/* width:210px; */
 width: 13.12rem;
-/* height:59px; */
 height: 3.68rem;
 text-align:center;
 transition: all 0.5s;
@@ -161,13 +153,11 @@ transition: all 0.5s;
 }
 
 .imgnew{
-  /* height:22rem; */
   height: 18rem;
 
 }
 .imgnew2{
   height: 19rem;
-  /* margin-top: 2%; */
 }
 
 .sec3_img1{
@@ -192,7 +182,6 @@ font-size: 0.87rem;
 font-style: normal;
 font-weight: 400;
 text-align: start;
-/* margin-top: 3%; */
 margin: 3% 5% 0% 2%;
 }
 
@@ -211,17 +200,8 @@ font-weight: 400;
 
 .imgnew3{
   margin-top: 7%;
-  /* margin-left: 2%; */
   height:18rem;
-  /* height: 22rem; */
 }
-
-@media screen and (max-width: 1440px)
-{
-  
-}
-
-
 
 
 @media screen and (max-width: 1024px)
@@ -263,12 +243,8 @@ font-weight: 400;
   margin-top: 5%;
  }
  .imgnew{
-  /* width: 300px;
-  height: 330px;
-  margin-top: 25%; */
   height: 360px;
   width: 300px;
-    /* margin-top: 20%; */
 }
 .pgh{
   margin-top: 8%;
@@ -276,11 +252,6 @@ font-weight: 400;
 .pgh3{
   margin-top: 5%;
 }
-/* .pgh{
-  margin-left:auto;
-  margin-right:auto;
-  text-align:start;
-} */
 
 .imgnew2{
   width: 350px;
@@ -298,17 +269,13 @@ font-weight: 400;
 
 @media screen and (max-width: 768px)
 {
-  .sec3_img1 .ak{
-    /* width: 60px; */
-    }
+  
     .imgnew{
       width: 320px;
       height: 350px;
-      /* margin-top: 27%; */
       
     }
     .pgh{
-      /* text-align: center; */
       text-align: justify;
       
         }
@@ -318,21 +285,15 @@ font-weight: 400;
       margin: 0% 0% 0% 3%;
     }
     .pgh2{
-      /* margin: 0 13% 0 15%; */
       text-align: justify;
       padding: 0% 0%;
       margin-bottom: 3%;
     }
     .imgnew3{
-      /* width: 320px;
-      height: 320px; */
       width: 320px;
       height: 300px;
-      /* margin-top: 20%; */
-      /* margin: 2% 0% 0% 0%; */
     }
     .pgh3{
-      /* margin: 2% 3% 0% 3%; */
       margin-top: 0%;
       text-align: justify;
     padding: 6% 5%;
@@ -421,9 +382,6 @@ font-weight: 400;
     border-radius: 50%;
   }
 }
-
-
-
 
 @media screen and (max-width: 320px)
 {
