@@ -7,11 +7,10 @@
   background-image: url("../../assets/contact-us-images/contact-us-first-bckground.svg");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .row1 {
-  padding: 15% 15%;
+  padding: 12% 19%;
 }
 
 .firstpara {
@@ -45,7 +44,6 @@
 .bck2 {
   border-radius: 50px;
   background: rgba(217, 217, 217, 0.7);
-  /* background-image: url(../../assets/contact-us-images/contact-us-bubble-image.svg); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -120,7 +118,7 @@
   font-weight: 600;
   line-height: 181.023%;
   text-align: start;
-  margin-top: 7%;
+  margin-top: 2%;
 }
 
 .service3 {
@@ -130,8 +128,6 @@
   font-size: 1rem;
 
   font-weight: 600;
-
-  padding-right: 10%;
 }
 
 .service2 {
@@ -148,6 +144,11 @@
 .customerSupport{
  padding: 10%;
 }
+.inquirybox{
+  padding: 10%;
+}
+
+
 
 
 .inquirybox{
@@ -156,15 +157,12 @@
 
 .main2 {
   border-radius: 8px;
-  
   width: 45%;
   margin-top: 5%;
-  
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 .btn-primary {
-  /* margin-top: 10%; */
   margin-top: 5%;
   color: #000000;
   border-radius: 8px;
@@ -185,14 +183,10 @@
 
 .submt {
   box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
   padding: 3% 7%;
-
   border: none;
   color: #000;
-
   font-size: 24px;
-
   font-weight: 600;
   background-color: rgba(74, 204, 228, 0.5);
 }
@@ -246,9 +240,8 @@
   padding: 6%;
 }
 
-.map iframe {
-  /* height: 23rem; */
-  /* width: 50px; */ 
+.address .map iframe {
+  width: 460px; 
   border-radius: 20px;
 }
 
@@ -271,17 +264,12 @@ font-size: 14px;
 font-weight: 600;
 }
 
-.customerSupport {
-    /* padding: 5%; */
-      }
-    
-
 
 
 @media screen and (max-width: 1440px)
 {
   .row1 {
-    padding: 15% 0%;
+    padding: 15% 19%;
   }
   .map iframe{ 
     
@@ -299,10 +287,7 @@ font-weight: 600;
   .row1 {
     padding: 15% 0%;
   }
-  /* .map iframe{ 
-    width: 250px;
-    height: 250px;
-  } */
+
   .map iframe{
     width: 350px;
     height: 400px;
@@ -314,9 +299,7 @@ font-weight: 600;
   .row1 {
     padding: 15% 0%;
   }
-  /* .map iframe{
-    width: 250px;
-    height: 250px; */
+
   }
   .map iframe{
     width: 350px;
@@ -326,15 +309,9 @@ font-weight: 600;
 
 @media screen and (max-width: 1024px) {
   .row1 {
-    padding: 15% 0%;
+    padding: 15% 10%;
   }
 
-  .map iframe{ 
-   
-    /* width: 250px;
-    height: 250px; */
-    /* border-radius:20px; */
-  } 
   .map iframe{
     width: 350px;
     height: 400px;
@@ -343,22 +320,27 @@ font-weight: 600;
   .customerSupport{
 padding: 5%;
   }
-  
+  .inquirybox{
+    padding: 5%;
+  }
+
 }
 
 @media screen and (max-width: 992px)
 {
   .row1 {
-    padding: 15% 0%;
+    padding: 15% 10%;
   }
 
   .main2{
     margin: 0 auto;
+    margin-top: 4%;
     }
+    
 
 .map iframe{ 
   width: 250px;
-  height: 350px;
+  height: 400px;
   border-radius: 20px;
 }
 
@@ -375,7 +357,7 @@ padding: 5%;
 }
 
 .submt {
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .customerSupport h1{
 text-align: start;
@@ -389,6 +371,12 @@ text-align: start;
 .inquirybox h1{
   text-align: start;
 }
+.inquirybox{
+  padding:5%;
+  text-align: start;
+}
+
+
 
 
 
@@ -397,15 +385,12 @@ text-align: start;
 }
 .main2{
   width: 50%;
-  /* width: 400px; */
 }
 
 .inquirybox{
   width: 80%;
-  margin:0 auto;
 }
 .btn-primary {
-  /* margin-top: 10%; */
   margin-top: 5%;
   color: #000000;
   border-radius: 8px;
@@ -429,13 +414,13 @@ text-align: start;
   .secondpara{
     font-size: 40px;
     margin: 0% 6%;
-    text-align: center;
+    text-align : center;
   }
+  
 
-  .map iframe {
-    width: 250px;
-    height: 350px;
-    margin: 0 11 0 11%;
+  .address .map iframe {
+    width: 360px;
+    height: 400px;
     border-radius: 20px;
   }
 
@@ -451,40 +436,25 @@ text-align: start;
     text-align: center;
   }
 
-  .submt {
-    margin-bottom: 5%;
-  }
   .customerSupport h1{
     text-align: center;
   }
   .inquirybox h1{
-    text-align: start;
+    text-align: center;
   }
+ 
   .customerSupport{
     padding: 1%;
       }
-  
-  .firstpara {
-    font-size: 25px;
-    text-align: center;
-    margin: auto;
-    line-height: 2;
-  }
-
-  .secondpara {
-    font-size: 13px;
-    text-align: center;
-    line-height: 3;
-  }
 
   .bubble-img {
     background-position: center;
   }
 
   .main2{
-    /* margin: 0% 0% 0% 19%;
-    width: 60%; */
     width: 110%;
+      margin-top: 3%;
+      
    } 
    .service {
     text-align: center;
@@ -499,18 +469,20 @@ text-align: start;
   }
   
   .submt {
-    margin-bottom: 5%;
+    margin-top: 1%;
   }
   
   .firstpara {
     font-size: 25px;
     text-align: center;
     margin: auto;
+    line-height: 2;
   }
   
   .secondpara {
     font-size: 13px;
     text-align: center;
+    line-height: 3;
   }
   .headclr{
     font-size: 32px;
@@ -545,11 +517,14 @@ text-align: start;
     font-size: 30px;
   }
   .btn-primary {
-    /* margin-top: 10%; */
     margin-top: 5%;
     color: #000000;
     border-radius: 8px;
     padding: 2% 7%;
+  }
+  .inquirybox{
+    width: 100%;
+    padding: 1%;
   }
   
 }
@@ -558,9 +533,9 @@ text-align: start;
 @media screen and (max-width: 575px){
 
 .main2{
+    margin-top: 1%;
+    }
 
-/* width: 65%; */
-}
 .btn1{
   width: 11rem;
   height: 4rem;
@@ -625,18 +600,39 @@ font-weight: 600;
 .headclr{
   font-size: 24px;
 }
+
+.box h1{
+  font-size: 25px;
+}
+.box p{
+  font-size: 12px;
+}
+.row1 .image1{
+  width: 80%;
+  margin: 0% 5% 0% 12%;
+}
+.address .map iframe{
+  width: 360px;
+  height: 320px;
+  border-radius: 20px;
+}
 }
 
 @media screen and (max-width: 425px){
 
   .main2{
-  
-  /* width: 65%; */
-  /* width: 80%; */
-  margin: 0% 0% 0% 0%;
-    width: 105%;
-
+    margin: 0 auto;
+    margin-top: 1%;
   }
+
+  .box h1{
+    font-size: 20px;
+  }
+  .box p{
+    font-size: 10px;
+  }
+
+
   .btn1{
     width: 9rem;
     height: 3.5rem;
@@ -671,8 +667,11 @@ font-weight: 600;
 .main h1{
   font-size: 25px;
 }
-
-
+.address .map iframe{
+  width: 310px;
+  height: 300px;
+  border-radius: 20px;
+}
 
 }
 
@@ -715,18 +714,20 @@ font-weight: 600;
 .main h1{
   font-size: 20px;
 }
+
+.address .map iframe{
+  width: 260px;
+  height: 300px;
+  border-radius: 20px;
+}
+
  }
 
 
 @media screen and (max-width: 320px){
-.box h1{
-  font-size: 20px;
-}
-.box p{
-  font-size: 10px;
-}
+
 .map iframe {
-  height: 23rem;
+  height: 300px;
   width: 250px; 
   border-radius: 20px;
 }
