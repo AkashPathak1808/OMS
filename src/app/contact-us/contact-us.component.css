@@ -4,13 +4,13 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .bck {
-  background-image: url("../../assets/contact-us-images/contact-us-first-bckground.svg");
+  background-image: url("../../assets/contact-us-images/layered-waves-haikei.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.row1 {
-  padding: 12% 19%;
+.row1 {  
+  padding: 9% 19% 5%;
 }
 
 .firstpara {
@@ -269,7 +269,8 @@ font-weight: 600;
 @media screen and (max-width: 1440px)
 {
   .row1 {
-    padding: 15% 19%;
+
+    padding: 9% 19%;
   }
   .map iframe{ 
     
@@ -285,7 +286,8 @@ font-weight: 600;
 @media screen and (max-width: 1200px)
 {
   .row1 {
-    padding: 15% 14%;
+   
+    padding: 8% 14%;
   }
 
   .map iframe{
@@ -297,7 +299,8 @@ font-weight: 600;
 @media screen and (max-width: 1199px)
 {
   .row1 {
-    padding: 15% 0%;
+    
+    padding: 8% 0%;
   }
 
   }
@@ -309,7 +312,8 @@ font-weight: 600;
 
 @media screen and (max-width: 1024px) {
   .row1 {
-    padding: 15% 10%;
+    
+    padding: 7% 10%;
   }
 
   .map iframe{
@@ -333,7 +337,8 @@ padding: 5%;
 @media screen and (max-width: 992px) 
 {
   .row1 {
-    padding: 15% 0%;
+   
+    padding: 8% 0%;
   }
 
   .main2{
@@ -401,7 +406,8 @@ text-align: start;
 @media screen and (max-width: 991px) 
 {
   .row1 {
-    padding: 15% 0%;
+   
+    padding: 8% 0%;
   }
 
   .main2{
@@ -469,7 +475,8 @@ text-align: start;
 
 @media screen and (max-width: 768px) {
   .row1 {
-    padding: 15% 0%;
+   
+    padding: 9% 0%;
   }
 
   .image1 img {
