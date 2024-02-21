@@ -51,14 +51,15 @@
 .peps {
 	
 	text-align: center;
-	margin: auto;
+   
 }
 
 .pehead {
+	margin-top: 4%;
 	width: 100%;
 	color: black;
 	font-size: 40px;
-
+    
 	font-family: Poppins;
 	font-weight: 400;
 	word-wrap: break-word;
@@ -68,14 +69,15 @@
 	background-color: #e2e2e2;
 	/* text-align: left; */
 	color: black;
-	font-size: 20px;
+	font-size: px;
 	font-family: Poppins;
-	font-weight: 500;
+	border-radius: 5px;
 	word-wrap: break-word;
 	margin: 3% 3%;
 	line-height: 1.4;
-	padding: 1%;
-	padding-bottom: 0;
+	padding: 0.5%;
+	
+	
 }
 
 @media screen and (max-width:1440px) {
@@ -123,8 +125,8 @@
 }
 
 .imgSetting {
-	width: 800px !important;
-	height: 300px !important;
+	width: 900px !important;
+	height: 400px !important;
 	margin: auto;
 }
 
@@ -135,10 +137,10 @@
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
 	.imgSetting {
-		width: 300px !important;
-		height: 150px !important;
+		width: 350px !important;
+		height: 200px !important;
 	}
 }
 
