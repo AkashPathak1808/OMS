@@ -14,6 +14,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { JobDeskComponent } from './job-desk/job-desk.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { SignupPageComponent } from './signup-page/signup-page.component';
+import { EventsComponent } from './events/events.component';
 
 const routes: Routes = [
 
@@ -24,8 +25,7 @@ const routes: Routes = [
   {path: "job-desk", component: JobDeskComponent},
   {path: "contact-us", component: ContactUsComponent},
   {path: "singnup" ,component: SignupPageComponent},
- 
-
+  {path: "events" ,component: EventsComponent},
 
   {path: "service/ios", component: IosDevelopmentComponent},
   {path: "service/android", component: AppDevelopmentComponent},
