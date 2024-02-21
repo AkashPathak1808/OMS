@@ -22,6 +22,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppDevelopmentComponent,
     ContactUsComponent,
     SignupPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    EventsComponent
    ],
   imports:[
     BrowserModule,
