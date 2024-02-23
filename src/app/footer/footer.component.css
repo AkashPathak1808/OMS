@@ -105,8 +105,23 @@ footer {
     align-items: center;
   }
 }
+
 @media screen and (max-width: 576px){
   .copyright{
     font-size: 12px;
   }
+  
 }
+@media screen and (width:768px){
+  .footer-section{
+  display: flex;
+  flex-direction: row;
+  }
+ 
+  .icons{
+    width:fit-content;
+   
+  }
+  
+}
+
