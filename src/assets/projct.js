@@ -37,7 +37,7 @@ document.getElementById("messagee").innerHTML="**please write message in the box
 
 if(yourName=="")
 {
-    alert("something went wrong");
+    
    
 }
 else if(yourEmail=="")
@@ -53,8 +53,8 @@ else if(message=="")
   
 }
 else{
-    alert("form submitted successfully");
-    
+   
+
     document.getElementById("yourForm").reset();
     
 }
