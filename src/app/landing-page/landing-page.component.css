@@ -470,34 +470,27 @@ h5 {
   box-shadow: 0px 0px 20px #1f1f1f;
 }
 
-.project-card::before {
+.project-card::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    322deg,
-    rgba(2, 0, 36, 0) 0%,
-    rgba(9, 125, 98, 0) 0%,
-    rgba(21, 112, 119, 0) 0%,
-    rgba(61, 99, 234, 0.9) 0%,
-    rgba(0, 212, 255, 0) 100%
-  );
+  background: #4746469a;
   transform: scaleY(0);
   transform-origin: top;
   transition: all 0.5s;
   z-index: 1;
 }
 
-.project-card:hover::before {
+.project-card:hover::after {
   transform: scaleY(1);
 }
 
 .name {
   text-align: center;
-  color: #000;
+  color: #000000;
   font-family: "Inter";
   font-size: 1.5rem;
   font-weight: 500;
@@ -507,7 +500,6 @@ h5 {
   color: #000;
   font-size: 1.125rem;
   font-weight: 400;
-  float: right;
   margin-top: 15px;
 }
 
@@ -742,7 +734,7 @@ h5 {
   }
 
   .paragraphs p {
-    font-size:1rem;
+    font-size: 1rem;
   }
 
   .p1 {
@@ -792,7 +784,7 @@ h5 {
     font-weight: 600;
   }
 
-  .information  a{
+  .information a {
     font-size: 1rem;
   }
 
