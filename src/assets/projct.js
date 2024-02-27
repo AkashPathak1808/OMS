@@ -55,8 +55,9 @@ else if(message=="")
 else{
     alert("form submitted successfully");
     
+    document.getElementById("yourForm").reset();
+    
 }
-
 
 }
 
