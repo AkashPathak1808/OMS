@@ -31,8 +31,7 @@
               "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "src/assets/projct.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {
@@ -97,7 +96,6 @@
               "src/styles.css"
             ],
             "scripts": []
-      
           }
         }
       }

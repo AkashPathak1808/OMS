@@ -68,11 +68,12 @@ ul li a:hover {
   background-color: #ffffff;
   border: none;
   text-align: center;
+  column-gap: 50px;
 }
 
 .services li a {
   color: rgb(8, 8, 8);
-  line-height:  30px;
+  line-height:  40px;;
 }
 
 .services li a:hover {
@@ -85,7 +86,7 @@ ul li a:hover {
   width: 30px;
 }
 
-.meenu{
+.meeennnuu {
   margin-top: 7%;
 }
 
@@ -94,7 +95,7 @@ ul li a:hover {
     background-color: #f6c73b;
   }
 
-  .meenu {
+  .meeennnuu {
     margin-top: 0%;
   }
 }
@@ -125,7 +126,7 @@ ul li a:hover {
     background-color: #f6c73b;
   }
 
-  .meenu {
+  .meeennnuu {
     margin-top: 0%;
   }
 }
@@ -159,7 +160,7 @@ ul li a:hover {
     font-size: 12px;
   }
 
-  .meenu {
+  .meeennnuu {
     margin-top: 0%;
   }
 }
@@ -194,7 +195,7 @@ ul li a:hover {
     font-size: 10px;
   }
 
-  .meenu {
+  .meeennnuu {
     margin-top: 0%;
   }
 }

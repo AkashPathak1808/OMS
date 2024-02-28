@@ -134,37 +134,31 @@
                 <u class="headclr">Send Queries</u>
               </h2>
 
-              <form action="#" autocomplete= "on"   onsubmit="return validation()" method="dialog" id="yourForm" method="post">
+              <form>
                 <div class="form-row row">
                   <div class="form-group col-md-6 col-lg-6">
-                    <input type="text" class="form-control" id="yourName" placeholder="Enter your name" /> 
-                    <aside id= "yourNamee"></aside>
-                    
+                    <input type="text" class="form-control" id="yourName" />
+                    <label for="yourName">Your Name</label>
                   </div>
                   <div class="form-group col-md-6 col-lg-6">
-                    <input type="email" class="form-control" id="yourEmail" placeholder="Enter your email" />
-                    <aside id= "yourEmaill"></aside>
-                    
+                    <input type="email" class="form-control" id="yourEmail" />
+                    <label for="yourEmail">Your Email</label>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" id="subject"  placeholder="Subject"  />
-                  <aside id= "subjectt"></aside>
-              
-                  
+                  <input type="text" class="form-control" id="subject" />
+                  <label for="subject">Subject</label>
                 </div>
                 <div class="form-group">
                   <textarea
                     class="form-control"
                     id="message"
-                    rows="8"  placeholder="Message" 
+                    rows="8"
                   ></textarea>
-                  <aside id= "messagee"></aside>
-                  
+                  <label for="message">Message...</label>
                 </div>
-                <button type="submit" class="btn btn-primary submt">  
+                <button type="submit" class="btn btn-primary submt">
                   Send Message
-
                 </button>
               </form>
             </div>
@@ -209,3 +203,4 @@
   </div>
 </div>
 <app-footer></app-footer>
+
