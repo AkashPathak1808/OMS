@@ -265,6 +265,14 @@ font-weight: 600;
 }
 
 
+  aside{
+    color:red;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+    }
+
+
 
 @media screen and (max-width: 1440px)
 {
