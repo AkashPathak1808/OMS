@@ -52,6 +52,7 @@ footer {
   font-weight: 400;
   word-wrap: break-word;
 }
+
 .footer_link {
   color: #718096;
   text-decoration: none;
@@ -78,10 +79,8 @@ footer {
 }
 
 .btn-floating {
-  background: linear-gradient(
-    rgba(247.76, 76.81, 107.46, 0.7) 0%,
-    rgba(185.22, 52.07, 240.31, 0.7) 100%
-  );
+  background: linear-gradient(rgba(247.76, 76.81, 107.46, 0.7) 0%,
+      rgba(185.22, 52.07, 240.31, 0.7) 100%);
   border-radius: 25px;
   margin: 0 10%;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
@@ -105,8 +104,23 @@ footer {
     align-items: center;
   }
 }
-@media screen and (max-width: 576px){
-  .copyright{
+
+@media screen and (max-width: 576px) {
+  .copyright {
     font-size: 12px;
   }
+
+}
+
+@media screen and (width:768px) {
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icons {
+    width: fit-content;
+
+  }
+
 }

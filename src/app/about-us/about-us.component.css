@@ -18,10 +18,9 @@
   margin-top: 2%;
 }
 
-.mainContaier{
-  background-color: #d2d2d2
+.mainContaier {
+  background-color: #f2f2f2;
 }
-
 
 .border {
   background: #000;
@@ -37,6 +36,7 @@
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 40px;
+  text-align: justify;
 }
 
 .image1 {
@@ -52,6 +52,7 @@
 
 .image2 {
   float: right;
+  margin-left: 2%;
 }
 
 /* Section 3 */
@@ -62,8 +63,7 @@
 .image3 {
   float: left;
   margin-right: 2%;
- 
-    width: 390px;
+  width: 390px;
 }
 
 .whyChooseUs {
@@ -99,39 +99,60 @@
     font-size: 2rem;
   }
 
-  .image1{
-   margin-right: 2%;
-   
+  .image1 {
+    margin-right: 2%;
   }
-
-
-
 }
 
 @media screen and (max-width: 426px) {
- .image1 ,.image2 ,.image3 ,.image4{
-  float: left;
- }
 
- .image1{
-  width: 400px;
- }
+  .image1,
+  .image2,
+  .image3,
+  .image4 {
+    float: left;
+    height: 200px;
+  }
 
- .whyChooseUs {
-  font-size: 1.8rem;
-  text-align: center;
-}
+  .image1 {
+    width: 400px;
+  }
 
-.itSoftware {
-  text-align: center;
-  font-size: 1.9rem;
-  line-height: 35px;
-}
+  .image2 {
+    width: 400px;
+  }
 
- 
+  .whyChooseUs {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .itSoftware {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .para1,
+  .para2,
+  .para3,
+  .para4 {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .aboutUs {
+    line-height: 35px;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  .image2 {
+    width: 350px;
+  }
+
   .image1 {
     width: 350px;
     margin: 0 auto;
@@ -144,20 +165,18 @@
   .image4 {
     width: 340px;
   }
+}
 
+@media screen and (max-width: 321px) {
 
+  .image1,
+  .image2,
+  .image3,
+  .image4 {
+    width: 285px;
+  }
 
-  .para1,
-  .para2,
-  .para3,
-  .para4 {
+  .itSoftware {
     font-size: 1.2rem;
   }
 }
-
-@media screen and (max-width: 321px){
-  .image1 ,.image2 ,.image3 ,.image4{
-    width: 285px;
-   }
-}
-
