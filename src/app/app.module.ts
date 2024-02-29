@@ -24,6 +24,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { EventsComponent } from './events/events.component';
 
+import { HttpClientModule } from '@angular/common/http'
+import { FormsModule } from '@angular/forms';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,6 +55,9 @@ import { EventsComponent } from './events/events.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     FontAwesomeModule,
+    HttpClientModule,
+    FormsModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent],
