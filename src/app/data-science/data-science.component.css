@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .fsDataScience {
-    background-image: url('../../assets/Data_Science/bg1.svg');
+    background-image: url('../../assets/Software_Development/waves.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,16 +12,16 @@
 
 .fsPara {
     color: #BA1200;
-    font-family: Kalam;
+    font-family: Poppins;
     font-size: 16px;
 }
 
 .fsHead {
-    color: rgba(255, 102, 16, 1);
+    color: #3D63EA;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 118%;
-    font-family: "Nico Moji";
+    font-family: Poppins;
 }
 
 .fsSecondPara {
@@ -81,11 +79,6 @@
     background-color: #0CBC8B;
 }
 
-.ssDataScience {
-    background-image: url('../../assets/Software_Development/bg2.svg');
-    background-repeat: none;
-}
-
 .ssHead {
     padding: 5% 0 0;
     font-family: Poppins;
@@ -95,7 +88,7 @@
 
 .serviceLink {
     border-radius: 10px;
-    background-color: rgba(255, 102, 16, 0.35);
+    background-color: rgba(61, 99, 234, 0.15);
     padding: 1% 2%;
     margin: 0 3% 5%;
 
@@ -114,7 +107,7 @@
 }
 
 .ssImg {
-    background-color: rgba(146, 53, 1, 0.49);
+    background-color: rgba(61, 99, 234, 0.15);
     margin: 0 20%;
     padding: 3%;
     border-radius: 25px;
@@ -132,7 +125,7 @@
 }
 
 .card:hover {
-    background-color: rgba(146, 53, 1, 0.49);
+    background-color: #BFCCFC;
     transition-duration: 800ms;
     padding: 3%;
     box-shadow: 3px 3px 10px 3px #a79090;

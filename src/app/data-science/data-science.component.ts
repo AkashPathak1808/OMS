@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class DataScienceComponent {
   img1 = "assets/Data_Science/img1.png";
   img2 = "assets/Data_Science/img2.svg";
-  box = "assets/Data_Science/box.svg";
+  box = "assets/Software_Development/box.svg";
   line = "assets/Software_Development/line.svg";
 }

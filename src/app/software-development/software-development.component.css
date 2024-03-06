@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .fsSoftwareDev {
     background-image: url('../../assets/Software_Development/waves.svg');
@@ -14,16 +12,16 @@
 
 .fsPara {
     color: #BA1200;
-    font-family: Kalam;
+    font-family: Poppins;
     font-size: 16px;
 }
 
 .fsHead {
     color: #3D63EA;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 118%;
-    font-family: "Nico Moji";
+    font-family: Poppins;
 }
 
 .fsSecondPara {
@@ -85,11 +83,6 @@
     width: 500px;
 }
 
-.ssSoftwareDev {
-    background-image: url('../../assets/Software_Development/bg2.svg');
-    background-repeat: none;
-}
-
 .ssHead {
     padding: 5% 0 0;
     font-family: Poppins;
@@ -118,7 +111,6 @@
 }
 
 .ssImg {
-    background-color: rgba(61, 99, 234, 0.15);
     margin: 0 20%;
     padding: 3%;
     border-radius: 25px;
