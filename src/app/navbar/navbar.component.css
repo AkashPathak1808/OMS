@@ -8,7 +8,7 @@
 }
 
 .contact a,
-.email a{
+.email a {
   text-decoration: none;
   color: white;
 }
@@ -18,7 +18,7 @@
 }
 
 .imgbgc {
-  background-color: #f7fcfb;
+  background-color: #ffffff;
   padding: 0%;
   margin: -42px 0px -5px -80px;
   clip-path: polygon(0 0, 68% 0, 87% 100%, 0% 100%);
@@ -32,10 +32,11 @@
 .rwLogo {
   width: 300px;
   height: 100px;
-
   position: absolute;
   top: 0;
   left: 12%;
+  background-color: white;
+
 }
 
 ul li a {
@@ -45,7 +46,7 @@ ul li a {
 }
 
 ul li a:hover {
-  scale: 0.9 ;
+  scale: 0.9;
   font: bolder;
 }
 
@@ -72,7 +73,7 @@ ul li a:hover {
 
 .services li a {
   color: rgb(8, 8, 8);
-  line-height:  30px;
+  line-height: 30px;
 }
 
 .services li a:hover {
@@ -85,7 +86,7 @@ ul li a:hover {
   width: 30px;
 }
 
-.meenu{
+.meenu {
   margin-top: 7%;
 }
 

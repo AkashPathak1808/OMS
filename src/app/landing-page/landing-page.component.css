@@ -504,30 +504,23 @@ h5 {
   font-weight: 400;
   margin-top: 15px;
   text-align: justify;
+  line-height: 30px;
 }
 
 .stars {
   text-align: center;
 }
 
-.comma1 {
-  font-weight: bolder;
-  font-size: 30px;
-  float: left;
-}
-
-.comma2 {
-  font-weight: bolder;
-  float: right;
-  font-size: 30px;
-  /* margin-top: 10px; */
-}
 
 .allcards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 30px;
+}
+
+.comma{
+  font-size: 35px;
 }
 
 /* Section 12  */

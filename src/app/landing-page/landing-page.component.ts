@@ -20,8 +20,8 @@ export class LandingPageComponent {
   techStack =  'assets/LandingPageImg/techStack.svg';
   studiodesk =  'assets/LandingPageImg/studiodesk.svg';
   star =  'assets/LandingPageImg/Star.png';
-  womanworking =  'assets/LandingPageImg/womanworking.svg';
-  hire =  'assets/LandingPageImg/hire.svg';
+  womanworking =  'assets/LandingPageImg/womanworking.png';
+  hire =  'assets/LandingPageImg/hire.png';
   Rectangle = 'assets/LandingPageImg/Rectangle.svg';
   circle = 'assets/LandingPageImg/circle.svg';
   gif = 'assets/LandingPageImg/gif.gif';
