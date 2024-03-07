@@ -86,20 +86,33 @@
     font-weight: 400;
 }
 
-.serviceLink {
-    border-radius: 10px;
-    background-color: rgba(61, 99, 234, 0.15);
-    padding: 1% 2%;
-    margin: 0 3% 5%;
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    font-family: Poppins;
-    font-size: 16px;
+.serviceLink {
+    border-radius: 0.62rem;
+    background: rgb(61, 99, 234, 0.15);
+    padding: 1% 1%;
+    margin: 1%;
+    font-family: poppins;
+    font-size: 0.93rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     text-decoration: none;
-    color: #000;
+    color: black;
+    width: 13.12rem;
+    height: 3.68rem;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.serviceLink:hover {
+    background-color: rgb(173, 233, 255);
+    cursor: pointer;
 }
 
 .head img {
@@ -108,7 +121,7 @@
 
 .ssImg {
     background-color: rgba(61, 99, 234, 0.15);
-    margin: 0 20%;
+    margin: 5% 20%;
     padding: 3%;
     border-radius: 25px;
 }
@@ -185,7 +198,7 @@
     }
 
     .ssImg {
-        margin: 0 15%;
+        margin: 5% 15%;
     }
 
     .ssImg img {
@@ -225,7 +238,7 @@
     }
 
     .ssImg {
-        margin: 0 5%;
+        margin: 5%;
     }
 
     .ssImg img {

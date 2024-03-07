@@ -18,8 +18,8 @@ export class ContactUsComponent implements OnInit {
    }
   
   imagepath1 = "assets/contact-us-images/contact-us-firstgif.gif";
-  imagepath2 = "assets/contact-us-images/contact-us-call-logo.svg";
-  imagepath3 = "assets/contact-us-images/contact-us-messenger-logo.svg";
+  imagepath2 = "assets/contact-us-images/contact-us-call-logo1.svg";
+  imagepath3 = "assets/contact-us-images/contact-us-messenger-logo1.svg";
   treeImg2 = "assets/contact-us-images/contact-us-treeimage.svg";
 
   public saveContact = {

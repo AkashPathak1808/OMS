@@ -42,6 +42,7 @@
 .image1 {
   float: left;
   margin-right: 2%;
+  height: 350px;
 }
 
 /* Section 2 */
@@ -53,6 +54,7 @@
 .image2 {
   float: right;
   margin-left: 2%;
+  height: 350px;
 }
 
 /* Section 3 */
@@ -63,7 +65,7 @@
 .image3 {
   float: left;
   margin-right: 2%;
-  width: 390px;
+  height: 350px;
 }
 
 .whyChooseUs {
@@ -82,8 +84,8 @@
 }
 
 .image4 {
-  float: left;
-  margin-right: 2%;
+  float: right;
+  margin-left: 2%;
   width: 390px;
   height: 350px;
 }

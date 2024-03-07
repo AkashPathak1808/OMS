@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./landing-page.component.css'],
 })
 export class LandingPageComponent {
-  wave = 'assets/LandingPageImg/wave.svg';
   undraw_programming = 'assets/LandingPageImg/undraw_programming.gif';
   group = 'assets/LandingPageImg/group.gif';
   colleagues = 'assets/LandingPageImg/colleagues.svg';
