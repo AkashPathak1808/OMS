@@ -54,10 +54,37 @@ h3 {
   text-transform: capitalize;
 }
 
+.intellect {
+  background: linear-gradient(
+    180deg,
+    #e14d4d 27.72%,
+    rgba(13, 28, 159, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.96px;
+}
+
+.driven {
+  color: #1a202c;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.96px;
+}
+
 .product {
-  background: linear-gradient(180deg,
-      #e14d4d 27.72%,
-      rgba(13, 28, 159, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #e14d4d 27.72%,
+    rgba(13, 28, 159, 0) 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -74,6 +101,7 @@ h3 {
   font-size: 2.8rem;
   font-weight: 600;
   text-transform: capitalize;
+  line-height: 40px;
 }
 
 .button {
@@ -138,8 +166,10 @@ h3 {
   font-size: 1.214rem;
   font-weight: 400;
   line-height: 150%;
-  background: var(--Gradient-Primary-bg,
-      linear-gradient(225deg, #f76680 0%, #57007b 100%));
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -179,7 +209,7 @@ h3 {
 }
 
 .circle {
-  background-image: url("../../assets/LandingPageImg/circle.svg");
+  /* background-image: url("../../assets/LandingPageImg/circle.svg"); */
   background-repeat: repeat-y;
   animation: 10s linear 1s infinite slideBackground;
 }
@@ -261,8 +291,10 @@ h3 {
 }
 
 .delivery {
-  background: var(--Gradient-Primary-bg,
-      linear-gradient(225deg, #f76680 0%, #57007b 100%));
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -275,7 +307,6 @@ h3 {
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     transform: scale(1);
@@ -336,22 +367,26 @@ h3 {
 }
 
 .uxDriven {
-  background: var(--Gradient-dark-bg,
-      linear-gradient(225deg, #29272e 0%, #27272e 100%));
+  background: var(
+    --Gradient-dark-bg,
+    linear-gradient(225deg, #29272e 0%, #27272e 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-weight: 700;
 }
 
 .developing {
-  background: var(--Gradient-info-bg,
-      linear-gradient(225deg, #68dbf2 0.01%, #509cf5 100%));
+  background: var(
+    --Gradient-info-bg,
+    linear-gradient(225deg, #68dbf2 0.01%, #509cf5 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
 
   font-family: "Inter";
   font-size: 14px;
@@ -359,48 +394,56 @@ h3 {
 }
 
 .heart {
-  background: var(--Gradient-tertiary-bg,
-      linear-gradient(224deg, #ff92ae 8.18%, #ff3d9a 95.84%));
+  background: var(
+    --Gradient-tertiary-bg,
+    linear-gradient(224deg, #ff92ae 8.18%, #ff3d9a 95.84%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
 }
 
 .security {
-  background: var(--Gradient-success-bg,
-      linear-gradient(225deg, #67e9f1 0%, #24e795 100%));
+  background: var(
+    --Gradient-success-bg,
+    linear-gradient(225deg, #67e9f1 0%, #24e795 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
 }
 
 .codeReview {
-  background: var(--Gradient-warning-bg,
-      linear-gradient(225deg, #ffef5e 0%, #f7936f 100%));
+  background: var(
+    --Gradient-warning-bg,
+    linear-gradient(225deg, #ffef5e 0%, #f7936f 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
 }
 
 .lock {
-  background: var(--Gradient-Primary-bg,
-      linear-gradient(225deg, #f76680 0%, #57007b 100%));
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
@@ -523,8 +566,10 @@ h5 {
 .section12 {
   padding: 5% 5%;
   border-radius: 20px;
-  background: var(--Gradient-Secondery-bg,
-      linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%));
+  background: var(
+    --Gradient-Secondery-bg,
+    linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%)
+  );
 }
 
 .hiring {
@@ -538,8 +583,10 @@ h5 {
   font-size: 35px;
   line-height: 40px;
   font-weight: 700;
-  background: var(--Gradient-dark-bg,
-      linear-gradient(225deg, #29272e 0%, #27272e 100%));
+  background: var(
+    --Gradient-dark-bg,
+    linear-gradient(225deg, #29272e 0%, #27272e 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -656,6 +703,14 @@ h5 {
 
   .teams {
     font-size: 1.6rem;
+  }
+
+  .intellect{
+    font-size: 1.8rem;
+  }
+
+  .driven{
+    font-size: 1.8rem;
   }
 
   .fourthSecHeading,
@@ -779,7 +834,6 @@ h5 {
 }
 
 @media screen and (max-width: 320px) {
-
   .fourthSecHeading,
   .eightSecHeading,
   .sixthSecHeading {
