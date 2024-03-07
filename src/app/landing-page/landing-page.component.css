@@ -31,22 +31,20 @@ h3 {
   width: 500px;
 }
 
-.leftpart p{
+.leftpart p {
   line-height: 50px;
 }
 
 .rail1 {
   color: #021eba;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-style: normal;
   font-weight: bolder;
- 
 }
 
-.lgfssecondpara{
+.lgfssecondpara {
   font-size: 2.5rem;
 }
-
 
 .great {
   background: linear-gradient(180deg, #3d63ea 44.46%, #000 66.85%);
@@ -57,11 +55,11 @@ h3 {
   text-transform: capitalize;
 }
 
-.by{
-  color: #1A202C;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 0.96px;
+.by {
+  color: #1a202c;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.96px;
 }
 
 .intellect {
@@ -82,9 +80,8 @@ letter-spacing: 0.96px;
   color: #1a202c;
   font-style: normal;
   font-weight: 600;
-  letter-spacing: 0.96px
+  letter-spacing: 0.96px;
 }
-
 
 .teams {
   background: linear-gradient(225deg, #f7666f 0%, #406aff 100%);
@@ -200,7 +197,6 @@ letter-spacing: 0.96px;
   height: 1.3rem;
   color: rgba(87, 0, 123, 1);
 }
-
 
 /* Section 4 CSS */
 
@@ -473,7 +469,7 @@ h5 {
   padding: 3% 2%;
   background: rgba(217, 217, 217, 0.8);
   position: relative;
-  box-shadow: 0px 0px 20px #1f1f1f;
+  box-shadow: 0px 0px 7px #1f1f1f;
 }
 
 .project-card::after {
@@ -596,11 +592,12 @@ h5 {
 }
 
 @media screen and (max-width: 992px) {
-  .lgfssecondpara{
+
+  .lgfssecondpara {
     font-size: 2.5rem;
   }
 
-  .leftpart p{
+  .leftpart p {
     line-height: 25px;
   }
 
@@ -611,7 +608,6 @@ h5 {
   .lgfssecondpara {
     font-size: 1.5rem;
   }
-
 
   .teams {
     font-size: 1.5rem;
@@ -672,12 +668,11 @@ h5 {
     font-weight: 700;
   }
 
-
   .rail1 {
     font-size: 1.2rem;
   }
 
-  .lgfssecondpara{
+  .lgfssecondpara {
     font-size: 1.5rem;
   }
 
@@ -727,7 +722,7 @@ h5 {
   }
 
   .secondSecHeading {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding: 0% 2%;
   }
 
@@ -816,7 +811,7 @@ h5 {
     font-size: 1.3rem;
   }
 
-  .rail1{
+  .rail1 {
     font-size: 1rem;
   }
 

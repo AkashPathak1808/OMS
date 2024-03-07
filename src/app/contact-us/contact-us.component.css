@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .bck {
-  background-image: url("../../assets/contact-us-images/layered-waves-haikei.svg");
+  background-image: url("../../assets/contact-us-images/layered-waves-haikei 1.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -14,11 +14,12 @@
 }
 
 .firstpara {
-  color: #ba1200;
-  font-family: Kalam;
+  
+  color: #BA1200;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
+  
 }
 
 .box {
@@ -26,11 +27,17 @@
 }
 
 .box h1 {
-  color: #0cbc8b;
+  
+  color: #3D63EA;
+  color: (61, 99, 234, 1);
   font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
-  font-family: "Nico Moji";
+  font-weight: 600;
+  font-size: 53px;
+  
+  line-height: normal;
+  
+ 
+  
 }
 .secondpara {
   color: #000;
@@ -38,8 +45,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 2;
+  
+  line-height: normal;
 }
+
 
 .bck2 {
   border-radius: 50px;
@@ -47,11 +56,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bubble-img {
-  background-image: url(../../assets/contact-us-images/contact-us-bubble-image.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 .main {
   text-align: center;
@@ -65,14 +70,15 @@
 }
 
 .nav-item .active {
-  background-color: #4acce4;
+ 
+  background-color: rgba(226, 232, 252, 1);
   border-radius: 34px 0px 0px 34px;
   color: black;
   transition: all 0.3s;
 }
 
 .btn2 .active {
-  background-color: #4acce4;
+  background-color: rgba(226, 232, 252, 1);
   border-radius: 0px 34px 34px 0px;
 
   transition: all 0.3s;
@@ -111,14 +117,17 @@
 }
 
 .service {
-  color: #4acce4;
+ 
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 181.023%;
   text-align: start;
-  margin-top: 2%;
+  margin-top: 1%;
+  line-height: 2.5;
+  color:rgba(0, 0, 0, 1);
+  
 }
 
 .service3 {
@@ -126,20 +135,33 @@
   color: rgba(0, 0, 0, 0.5);
   font-family: "Poppins";
   font-size: 1rem;
-
+margin-top: 5%;
   font-weight: 600;
 }
 
 .service2 {
-  color: #4acce4;
+  
   font-family: Poppins;
   font-size: 16px;
   font-style: poppins;
   font-weight: 600;
   text-align: start;
+  color: rgba(0, 0, 0, 1);
+}
+
+.logo{
+  font-size: 20px;
+}
+.logo2 {
+  font-size: 20px;
+  color:rgba(0, 0, 0, 1);
 }
 .customerSupport h1{
   margin-top: 2%;
+  font-size: 30px;
+}
+.inquirybox h1{
+  font-size: 30px;
 }
 .customerSupport{
  padding: 10%;
@@ -169,10 +191,17 @@
 }
 
 .headclr {
-  color: #4acce4;
-  font-family: Inter;
-  font-size: 35px;
+  
+  color: rgba(0, 0, 0, 1);
+  font-style: poppins;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration-line: underline;
+ line-height: 2;
+ margin-top: 5%;
+  
 }
+
 
 .form-control {
   border-radius: 10px;
@@ -185,17 +214,21 @@
   box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 3% 7%;
   border: none;
-  color: #000;
+ 
+  color: white;
   font-size: 24px;
   font-weight: 600;
-  background-color: rgba(74, 204, 228, 0.5);
+  
+  background-color: rgba(113, 128, 150, 1);
 }
 .submt:active {
-  background-color: #4acce4;
+ 
+  background-color: green;
 }
 .submt:hover {
  
-  background-color: #4acce4;
+ 
+  background-color: black;
 }
 
 .form-group {
@@ -700,6 +733,9 @@ margin-bottom: 0%;
   height: 320px;
   border-radius: 20px;
   margin-top: 3%;
+}
+.box{
+  margin-top: 0%;
 }
 }
 
