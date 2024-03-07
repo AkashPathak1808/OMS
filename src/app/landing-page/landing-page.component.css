@@ -564,6 +564,7 @@ h5 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align:center;
 }
 
 @media screen and (max-width: 1024px) {
