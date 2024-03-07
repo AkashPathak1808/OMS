@@ -153,13 +153,13 @@
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
-  color:black;
+  color: black;
   width: 13.12rem;
   height: 3.68rem;
-  text-align:center;
+  text-align: center;
   transition: all 0.5s;
 }
-  
+
 .serviceLink:hover {
   background-color: rgb(199, 211, 251);
   cursor: pointer;
@@ -208,8 +208,11 @@ p {
 }
 
 .rectangle-box:hover {
-  background-color: #E2E8FC;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  background-color: #BFCCFC;
+  transition-duration: 800ms;
+  padding: 3%;
+  box-shadow: 0 0 10px 3px #a79090;
 }
 
 .rectangle-box:hover,
@@ -248,26 +251,27 @@ p {
   .img-lady {
     margin: 15% 1%;
   }
+
   .col-2 img {
-   height: 42px;
+    height: 42px;
   }
 
   .text-function {
     font-size: 12px;
     margin: 0 1% 2% 0;
   }
-  
+
   .head-text {
     font-size: 30px;
     margin: 1% 1% 0 0;
   }
-  
+
   .para {
     font-size: 10px;
     line-height: 13px;
     margin: 0% 1% 1% 0;
   }
-  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -320,8 +324,8 @@ p {
 
   .col-2 img {
     height: 35px;
-   }
-  
+  }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -331,12 +335,12 @@ p {
     font-size: 9px;
     margin: 2% 1% 2% 0;
   }
-  
+
   .head-text {
     font-size: 40px;
     margin: 4% 5% 0 0;
   }
-  
+
   .para {
     font-size: 9px;
     line-height: 15px;
@@ -368,7 +372,7 @@ p {
     font-size: 30px;
     margin-top: 0.5em;
   }
-  
+
   .underline {
     width: 55px;
     height: 3px;
@@ -384,9 +388,9 @@ p {
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
 
-  .blcha{
+  .blcha {
     height: 25px;
     width: 30px;
   }
