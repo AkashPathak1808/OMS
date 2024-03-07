@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 
 .con1 {
-   background-image: url('../../assets/contact-us-images/app-development-first-bckground-new.svg');    
+   background-image: url('../../assets/contact-us-images/app-development-first-bckground-new1.svg');    
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -16,20 +18,22 @@
 }
 
 .text-function {
-  font-family: 'Kalam', cursive;
+  font-family: poppins;
   color: #BA1200;
   font-size: 1.06rem;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
+  font-style: normal;
 }
 
 .head-text {
-  color: #F6C73B;
+  color: #3D63EA;
   white-space: nowrap;
-  font-family: "Nico Moji";
-  font-weight: 500;
+  font-family: Poppins;
+  font-weight: 400;
   line-height: 120%;
-  font-size: 35px;
+  font-size: 48px;
+  font-style: normal;
 }
 
 .para {
@@ -43,7 +47,8 @@
 
 .circle-container {
   display: flex;
-  margin-left: 1.56rem;
+
+  margin: -5% 12% 5% 0%;
 }
 
 .circle {
@@ -92,9 +97,14 @@
 }
 
 .img-lady {
-  margin-bottom: 2%;
+  
   max-width: 100%;
-}
+  opacity: 0.8;
+  margin-bottom: 18%;
+  margin-top: 12%;
+  
+  }
+
 .line{
 margin-left: 48%;
 margin-top: 2%;
@@ -114,7 +124,7 @@ height: 1.43rem;
 background: rgba(246, 199, 59, 0.22);
   border-radius: 0.62rem;
   background: rgba(246, 199, 59, 0.22);
-
+background-color: rgba(226, 232, 252, 1);
   padding: 1% 1%;
   margin: 1%;
   font-family: poppins;
@@ -131,7 +141,7 @@ transition: all 0.5s;
 }
 
 .serviceLink:hover {
-  background-color: lightskyblue;
+  background-color: rgb(98, 121, 194);
   color:#fff;
 }
 
@@ -144,7 +154,7 @@ transition: all 0.5s;
 
 
 .Main{
-  background-image: url('../../assets/contact-us-images/Rectangle 40090.svg'); 
+  background-image: url('../../assets/contact-us-images/Rectangle 40090 (2).svg'); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -202,6 +212,7 @@ font-weight: 400;
   margin-top: 7%;
   height:18rem;
 }
+
 
 
 @media screen and (max-width: 1024px)
@@ -305,6 +316,16 @@ font-weight: 400;
   width: 4.31rem;
   height: 1.43rem;
 }
+.data{
+  margin: 10% auto;
+}
+.img-lady{
+  max-width: 100%;
+  opacity: 0.8;
+  margin-bottom: 32%;
+  margin-top: 5%;
+}
+
 }
 
 @media screen and (max-width: 575px)
@@ -335,6 +356,22 @@ font-weight: 400;
   margin-bottom: 1%;
    width: 4.31rem; 
   height: 1.43rem; 
+}
+.data{
+  margin: 10% auto;
+}
+
+.img-lady{
+  max-width: 100%;
+  opacity: 0.8;
+  margin-bottom: 32%;
+  margin-top: 0%;
+}
+.head-text{
+  font-size: 35px;
+}
+.para{
+  font-size: 16px;
 }
 }
 
@@ -380,6 +417,9 @@ font-weight: 400;
     width: 3.12rem;
     height: 1.8rem;
     border-radius: 50%;
+  }
+  .para{
+    font-size: 14px;
   }
 }
 
