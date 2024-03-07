@@ -13,10 +13,8 @@ import { Observable } from 'rxjs';
 export class ContactUsComponent implements OnInit {
   constructor(private contactService: ContactformService, private snack: MatSnackBar) { }
 
-  ngOnInit(): void {
-    
-   }
-  
+  ngOnInit(): void { }
+
   imagepath1 = "assets/contact-us-images/contact-us-firstgif.gif";
   imagepath2 = "assets/contact-us-images/contact-us-call-logo1.svg";
   imagepath3 = "assets/contact-us-images/contact-us-messenger-logo1.svg";
@@ -30,26 +28,18 @@ export class ContactUsComponent implements OnInit {
   }
 
   formSubmit() {
-    console.log(this.saveContact)
-   
-    this.contactService.savedContact(this.saveContact).subscribe( 
+    this.contactService.savedContact(this.saveContact).subscribe(
       (data) => {
         this.snack.open("Submitted Successfully !!", '', {
           duration: 3000, verticalPosition: 'top'
         });
-        console.log(data)
       }, (error) => {
         this.snack.open("Something Went Wrong !!", '', {
           duration: 3000, verticalPosition: 'top'
         });
-        console.log(error)
       }
     )
-    
   }
-  
-
-  
 }
 
 
