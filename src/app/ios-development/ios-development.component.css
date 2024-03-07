@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
 
@@ -5,7 +6,7 @@
 /* part1 */
 
 .con1 {
-  background-image: url('../../assets/WebIos/layered-waves.svg');
+  background-image: url('../../assets/WebIos/wave-layered.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -18,7 +19,8 @@
 .text-function {
     color: #BA1200;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .head-text {
@@ -36,9 +38,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    margin: 2% 12% 5% 0;
+    margin: 2% 5% 5% 0;
 }
-
 
 .circle-container {
   display: flex;
@@ -141,7 +142,7 @@
 }
 
 .serviceLink:hover {
-  background-color: rgb(95, 192, 227);
+  background-color: rgb(167, 254, 255);
   cursor: pointer;
 }
 
