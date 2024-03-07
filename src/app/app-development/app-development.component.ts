@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppDevelopmentComponent {
   treeImg="assets/contact-us-images/app-development-tree-image.svg";
   System="assets/contact-us-images/app-devlopmnt-first-gif.gif";
-  img2="assets/contact-us-images/app-development-first-mobile-image.svg";
-  img3="assets/contact-us-images/app-development-second-mobile-image.svg";
-  img4="assets/contact-us-images/app-development-third-mobile-image.svg";
+  img2="assets/contact-us-images/app-development-first-mobile-image1.svg";
+  img3="assets/contact-us-images/app-development-second-mobile-image2.svg";
+  img4="assets/contact-us-images/app-development-third-mobile-image3.svg";
   logoo="assets/contact-us-images/app-development-line-image.svg";
 }
