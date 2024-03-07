@@ -9,5 +9,5 @@ export class BlockchainComponent {
   img1 = "assets/Blockchain/img1.svg";
   img2 = "assets/Blockchain/img2.svg";
   line = "assets/Software_Development/line.svg";
-  box = "assets/Blockchain/box.svg";
+  box = "assets/Software_Development/box.svg";
 }

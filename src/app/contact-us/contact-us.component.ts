@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactformService } from '../services/contactform.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-contact-us',
@@ -10,8 +13,10 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 export class ContactUsComponent implements OnInit {
   constructor(private contactService: ContactformService, private snack: MatSnackBar) { }
 
-  ngOnInit(): void { }
-
+  ngOnInit(): void {
+    
+   }
+  
   imagepath1 = "assets/contact-us-images/contact-us-firstgif.gif";
   imagepath2 = "assets/contact-us-images/contact-us-call-logo.svg";
   imagepath3 = "assets/contact-us-images/contact-us-messenger-logo.svg";
@@ -26,8 +31,8 @@ export class ContactUsComponent implements OnInit {
 
   formSubmit() {
     console.log(this.saveContact)
-
-    this.contactService.savedContact(this.saveContact).subscribe(
+   
+    this.contactService.savedContact(this.saveContact).subscribe( 
       (data) => {
         this.snack.open("Submitted Successfully !!", '', {
           duration: 3000, verticalPosition: 'top'
@@ -40,7 +45,20 @@ export class ContactUsComponent implements OnInit {
         console.log(error)
       }
     )
+    
   }
+  
 
-
+  
 }
+
+
+
+
+
+
+
+
+
+
+

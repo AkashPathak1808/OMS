@@ -6,39 +6,40 @@
 /* part1 */
 
 .con1 {
-  background-image: url('../../assets/WebIos/layered-waves(2).svg');
+  background-image: url('../../assets/WebIos/wave-layered.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .data {
-  margin: 12% auto;
+  margin: 9% auto;
 }
 
 .text-function {
-  font-family: 'Kalam', cursive;
-  color: #BA1200;
-  font-size: 14px;
-  font-weight: 580;
+    color: #BA1200;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .head-text {
-  color: #7D00B1;
-  font-size: 3em;
-  white-space: nowrap;
-  font-family: "Nico Moji";
-  font-weight: bold;
-  line-height: 120%;
+  color: #3D63EA;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 118%;
+  font-family: Poppins;
 }
 
 .para {
-  color: #000;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 21px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 2% 5% 5% 0;
 }
-
 
 .circle-container {
   display: flex;
@@ -83,24 +84,6 @@
   ;
 }
 
-.tree-box {
-  margin: 85px 10px;
-}
-
-.img-tree1 {
-  max-width: 100%;
-  height: auto;
-  margin: 6px;
-}
-
-.img-tree1-copy {
-  max-width: 100%;
-  height: auto;
-  margin: 6px;
-  transform: rotate(180deg);
-  opacity: 0.1;
-}
-
 .image {
   margin: auto;
   max-width: 100%;
@@ -110,35 +93,28 @@
 .img-lady {
   align-items: center;
   justify-content: center;
-  margin-top: 65px;
+  margin-top: 98px;
   margin-left: 95px;
+  margin-bottom: 11em;
   max-width: 100%;
-  height: auto;
 }
 
 
 /* part2 */
-
-.con2 {
-  background-image: url('../../assets/WebIos/circle-scatter.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
 
 .heading {
   font-family: Poppins;
   font-size: 50px;
   font-weight: 400;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 .underline {
-  width: 50px;
-  height: 3px;
+  width: 70px;
+  height: 4px;
   background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
-  margin: 10px auto;
+  margin: 2em auto;
 }
 
 .links {
@@ -149,7 +125,7 @@
 
 .serviceLink {
   border-radius: 0.62rem;
-  background: rgba(125, 0, 177, 0.31);
+  background: #E2E8FC;
   padding: 1% 1%;
   margin: 1%;
   font-family: poppins;
@@ -166,12 +142,12 @@
 }
 
 .serviceLink:hover {
-  background-color: rgb(173, 233, 255);
+  background-color: rgb(167, 254, 255);
   cursor: pointer;
 }
 
 .Detail-data {
-  background: #F2D4FF;
+  background: #FFFFFF;
   margin: 15px 65px;
   border-radius: 2%;
 }

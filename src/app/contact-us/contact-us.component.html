@@ -96,30 +96,31 @@
                 <u class="headclr">Send Queries</u>
               </h2>
 
-              <form (ngSubmit)="formSubmit()" autocomplete="on" onsubmit="return validation()" id="yourForm">
+              <form (ngSubmit)="formSubmit()" autocomplete="on"  id="yourForm">
                 <div class="form-row row">
                   <div class="form-group col-md-6 col-lg-6">
-                    <input [(ngModel)]="saveContact.name" name="name" type="text" class="form-control" id="yourName"
-                      placeholder="Enter Your Name" />
+                    <input [(ngModel)]="saveContact.name" name="name" type="text" class="form-control" id="yourName" 
+                      placeholder="Enter Your Name"/>
+                     
                     <aside id="yourNamee"></aside>
                   </div>
                   <div class="form-group col-md-6 col-lg-6">
-                    <input [(ngModel)]="saveContact.email" name="email" type="email" class="form-control" id="yourEmail"
-                      placeholder="Enter Your Email" />
+                    <input [(ngModel)]="saveContact.email" name="email" type="email" class="form-control" id="yourEmail"  
+                      placeholder="Enter Your Email"/>
                     <aside id="yourEmaill"></aside>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input [(ngModel)]="saveContact.subject" name="subject" type="text" class="form-control" id="subject"
+                  <input [(ngModel)]="saveContact.subject" name="subject" type="text" class="form-control" id="subject" 
                     placeholder="Enter Subject" />
                   <aside id="subjectt"></aside>
                 </div>
                 <div class="form-group">
-                  <textarea [(ngModel)]="saveContact.message" name="message" class="form-control" id="message"
-                    placeholder="Type Message Here..." rows="8"></textarea>
+                  <textarea [(ngModel)]="saveContact.message" name="message" class="form-control" id="message" 
+                    placeholder="Type Message Here..."  rows="8"></textarea>
                   <aside id="messagee"></aside>
                 </div>
-                <button type="submit" class="btn btn-primary submt">
+                <button type="submit" class="btn btn-primary submt" id="sendMessageBtn" disabled>
                   Send Message
                 </button>
               </form>

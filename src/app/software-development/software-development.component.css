@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 .fsSoftwareDev {
     background-image: url('../../assets/Software_Development/waves.svg');
@@ -14,16 +12,16 @@
 
 .fsPara {
     color: #BA1200;
-    font-family: Kalam;
+    font-family: Poppins;
     font-size: 16px;
 }
 
 .fsHead {
     color: #3D63EA;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 118%;
-    font-family: "Nico Moji";
+    font-family: Poppins;
 }
 
 .fsSecondPara {
@@ -85,11 +83,6 @@
     width: 500px;
 }
 
-.ssSoftwareDev {
-    background-image: url('../../assets/Software_Development/bg2.svg');
-    background-repeat: none;
-}
-
 .ssHead {
     padding: 5% 0 0;
     font-family: Poppins;
@@ -97,20 +90,33 @@
     font-weight: 400;
 }
 
-.serviceLink {
-    border-radius: 10px;
-    background-color: rgba(61, 99, 234, 0.15);
-    padding: 0.2% 2%;
-    margin: 0 3% 5%;
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    font-family: Poppins;
-    font-size: 16px;
+.serviceLink {
+    border-radius: 0.62rem;
+    background: rgb(61, 99, 234, 0.15);
+    padding: 1% 1%;
+    margin: 1%;
+    font-family: poppins;
+    font-size: 0.93rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     text-decoration: none;
-    color: #000;
+    color: black;
+    width: 13.12rem;
+    height: 3.68rem;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.serviceLink:hover {
+    background-color: rgb(173, 233, 255);
+    cursor: pointer;
 }
 
 .head img {
@@ -118,8 +124,7 @@
 }
 
 .ssImg {
-    background-color: rgba(61, 99, 234, 0.15);
-    margin: 0 20%;
+    margin: 5% 20%;
     padding: 3%;
     border-radius: 25px;
 }
@@ -191,11 +196,12 @@
     }
 
     .ssImg {
-        margin: 0 15%;
+        margin: 5% 15%;
     }
 
     .ssImg img {
         width: 350px;
+        margin-top: 5%;
     }
 
     .card {
@@ -225,12 +231,12 @@
     .serviceLink {
         font-size: 13px;
     }
-    
+
 }
 
 @media screen and (max-width: 577px) {
     .ssImg {
-        margin: 0 5%;
+        margin: 5%;
     }
 
     .ssImg img {

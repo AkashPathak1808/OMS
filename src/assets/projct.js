@@ -1,62 +1,107 @@
 
-
-function validation() {
-    var flag = true;
-    var yourName = document.getElementById("yourName").value;
-    var yourEmail = document.getElementById("yourEmail").value;
-    var subject = document.getElementById("subject").value;
-    var message = document.getElementById("message").value;
-
-    if (yourName == "") {
-        document.getElementById("yourNamee").innerHTML = "* Please write your-Name";
-        flag = false;
-    } 
-    document.getElementById("yourName").addEventListener("input", function () {
-        document.getElementById("yourNamee").innerHTML = "";
-    });
-    
-    
-
-    if (yourEmail == "") {
-        document.getElementById("yourEmaill").innerHTML = "* Please write your-Email";
-        flag = false;
-    } 
-
-    document.getElementById("yourEmail").addEventListener("input", function () {
-        document.getElementById("yourEmaill").innerHTML = "";
-    });
+document.addEventListener("DOMContentLoaded", function () {
+    var sendMessageBtn = document.getElementById("sendMessageBtn");
+    var nameInput = document.getElementById("yourName");
+    var emailInput = document.getElementById("yourEmail");
+    var subjectInput = document.getElementById("subject");
+    var messageInput = document.getElementById("message");
 
 
-    if (subject == "") {
-        document.getElementById("subjectt").innerHTML = "* Please write subject";
-        flag = false;
-    }
-    document.getElementById("subject").addEventListener("input", function () {
-        document.getElementById("subjectt").innerHTML = "";
-    });
+    function checkInputs() {
+      var nameValue = nameInput.value.trim();
+      var emailValue = emailInput.value.trim();
+      var subjectValue = subjectInput.value.trim();
+      var messageValue = messageInput.value.trim();
 
+      var isInputsEmpty =
+        nameValue === "" ||
+        emailValue === "" ||
+        subjectValue === "" ||
+        messageValue === "";
 
+      var isEmailValid = validateEmail(emailValue);
 
-    if (message == "") {
-        document.getElementById("messagee").innerHTML = "* Please write message";
-        flag = false;
+      sendMessageBtn.disabled = isInputsEmpty || !isEmailValid;
     }
 
-
-    document.getElementById("message").addEventListener("input", function () {
-        document.getElementById("messagee").innerHTML = "";
-    });
-    
-
-    if (flag) {
-        
-        document.getElementById("yourForm").reset();
+    function validateEmail(email) {
+      
+      var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return regex.test(email);
     }
 
-    return flag;
-}
+    function validateInputs(input, errorElement, errorMessage) {
+      if (input.value.trim() === "") {
+        errorElement.innerHTML = errorMessage;
+        return false;
+      } else {
+        errorElement.innerHTML = "";
+        return true;
+      }
+    }
+   
+
+    nameInput.addEventListener("input", function () {
+      checkInputs();
+      validateInputs(
+        nameInput,
+        document.getElementById("yourNamee"),
+        "* Please write your Name"
+      );
+    });
+
+    emailInput.addEventListener("input", function () {
+      checkInputs();
+      validateInputs(
+        emailInput,
+        document.getElementById("yourEmaill"),
+        "* Please write your Email"
+      );
+
+      var isEmailValid = validateEmail(emailInput.value.trim());
+      if (!isEmailValid) {
+        sendMessageBtn.disabled = true;
+      }
+    });
+
+    subjectInput.addEventListener("input", function () {
+      checkInputs();
+      validateInputs(
+        subjectInput,
+        document.getElementById("subjectt"),
+        "* Please write subject"
+      );
+    });
+
+    messageInput.addEventListener("input", function () {
+      checkInputs();
+      validateInputs(
+        messageInput,
+        document.getElementById("messagee"),
+        "* Please write message"
+      );
+    });
+     
 
 
+  function formSubmit() {
+    document.getElementById("yourForm").reset();
+  }
+  var form = document.getElementById("yourForm");
+  form.addEventListener("submit", function (event) {
+    event.preventDefault(); 
+    formSubmit();
+  });
 
+  function formSubmit() {
+    sendMessageBtn.disabled = true;
+    document.getElementById("yourForm").reset();
+  }
+
+  
+
+
+  });
+  
 
 
