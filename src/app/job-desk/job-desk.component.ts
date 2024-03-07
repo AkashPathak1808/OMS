@@ -25,8 +25,7 @@ export class JobDeskComponent {
   }
 
   formSubmit() {
-    console.log(this.resumeForm);
-    if (this.resumeForm.name != '' && this.resumeForm.email != '' && this.resumeForm.phone != '', this.resumeForm.email != '', this.resumeForm.resumeFileName != '') {
+    if (this.resumeForm.name != '' && this.resumeForm.email != '' && this.resumeForm.phone != '' && this.resumeForm.email != '' && this.resumeForm.resumeFileName != '') {
       //backend saving code
 
       this.resumeService.savedResume(this.resumeForm).
@@ -37,13 +36,11 @@ export class JobDeskComponent {
             });
             this.resetForm();
             this.closeModal();
-            console.log(data)
           }, (error) => {
             this.snack.open("Something Went Wrong !!", '', {
               duration: 5000, verticalPosition: 'top'
             });
             this.closeModal();
-            console.log(error)
           }
         );
     }
