@@ -2,24 +2,23 @@
 
 .aboutUs {
   color: #000;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 59px;
+  text-align:  center;
+  margin-top: 3%;
 }
 
 .itSoftware {
   color: #000;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 59px;
+  text-align:  center;
 }
 
 .firstSection {
   margin-top: 2%;
-}
-
-.mainContaier {
-  background-color: #f2f2f2;
 }
 
 .border {
@@ -35,7 +34,7 @@
   color: #000;
   font-size: 1.2rem;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 33px;
   text-align: justify;
 }
 
@@ -43,6 +42,7 @@
   float: left;
   margin-right: 2%;
   height: 350px;
+  border-radius: 30px;
 }
 
 /* Section 2 */
@@ -55,6 +55,7 @@
   float: right;
   margin-left: 2%;
   height: 350px;
+  border-radius: 30px;
 }
 
 /* Section 3 */
@@ -66,21 +67,23 @@
   float: left;
   margin-right: 2%;
   height: 350px;
+  border-radius: 30px;
 }
 
 .whyChooseUs {
   color: #000;
   font-size: 3rem;
   font-weight: 400;
-  line-height: 59px;
+  line-height: 30px;
   margin-top: 1%;
+  text-align:  center;
 }
 
 /* Section 4 */
 
 .fourthSection {
-  margin-top: 3%;
-  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 .image4 {
@@ -88,6 +91,7 @@
   margin-left: 2%;
   width: 390px;
   height: 350px;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 768px) {
