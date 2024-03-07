@@ -9,7 +9,7 @@
 /* Section 1 CSS */
 
 .firstSection {
-  background-image: url("../../assets//LandingPageImg/wave.svg");
+  background-image: url("../../assets/LandingPageImg/fsimg.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -31,8 +31,8 @@ h3 {
   width: 500px;
 }
 
-.railworld {
-  font-size: 2.5rem;
+.leftpart p{
+  line-height: 50px;
 }
 
 .rail1 {
@@ -40,40 +40,60 @@ h3 {
   font-size: 2.5rem;
   font-style: normal;
   font-weight: bolder;
-  line-height: 147.5%;
+ 
 }
+
+.lgfssecondpara{
+  font-size: 2.5rem;
+}
+
 
 .great {
   background: linear-gradient(180deg, #3d63ea 44.46%, #000 66.85%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2.8rem;
   font-weight: 900;
-  line-height: 3.438rem;
   text-transform: capitalize;
 }
 
-.product {
-  background: linear-gradient(180deg,
-      #e14d4d 27.72%,
-      rgba(13, 28, 159, 0) 100%);
+.by{
+  color: #1A202C;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.96px;
+}
+
+.intellect {
+  background: linear-gradient(
+    180deg,
+    #e14d4d 27.72%,
+    rgba(13, 28, 159, 0) 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2.8rem;
+  font-style: normal;
   font-weight: 600;
+  letter-spacing: 0.96px;
 }
+
+.driven {
+  color: #1a202c;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.96px
+}
+
 
 .teams {
   background: linear-gradient(225deg, #f7666f 0%, #406aff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Poppins";
-  font-size: 2.8rem;
   font-weight: 600;
   text-transform: capitalize;
+  line-height: 40px;
 }
 
 .button {
@@ -89,6 +109,7 @@ h3 {
   font-family: "Inter";
   font-size: 0.875rem;
   font-weight: 600;
+  margin-top: 5%;
 }
 
 /* Section 2 CSS */
@@ -138,8 +159,10 @@ h3 {
   font-size: 1.214rem;
   font-weight: 400;
   line-height: 150%;
-  background: var(--Gradient-Primary-bg,
-      linear-gradient(225deg, #f76680 0%, #57007b 100%));
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -178,21 +201,6 @@ h3 {
   color: rgba(87, 0, 123, 1);
 }
 
-.circle {
-  background-image: url("../../assets/LandingPageImg/circle.svg");
-  background-repeat: repeat-y;
-  animation: 10s linear 1s infinite slideBackground;
-}
-
-@keyframes slideBackground {
-  0% {
-    background-position: 0 0;
-  }
-
-  100% {
-    background-position: 100% 0;
-  }
-}
 
 /* Section 4 CSS */
 
@@ -261,8 +269,10 @@ h3 {
 }
 
 .delivery {
-  background: var(--Gradient-Primary-bg,
-      linear-gradient(225deg, #f76680 0%, #57007b 100%));
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -275,7 +285,6 @@ h3 {
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     transform: scale(1);
@@ -336,22 +345,26 @@ h3 {
 }
 
 .uxDriven {
-  background: var(--Gradient-dark-bg,
-      linear-gradient(225deg, #29272e 0%, #27272e 100%));
+  background: var(
+    --Gradient-dark-bg,
+    linear-gradient(225deg, #29272e 0%, #27272e 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-weight: 700;
 }
 
 .developing {
-  background: var(--Gradient-info-bg,
-      linear-gradient(225deg, #68dbf2 0.01%, #509cf5 100%));
+  background: var(
+    --Gradient-info-bg,
+    linear-gradient(225deg, #68dbf2 0.01%, #509cf5 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
 
   font-family: "Inter";
   font-size: 14px;
@@ -359,48 +372,56 @@ h3 {
 }
 
 .heart {
-  background: var(--Gradient-tertiary-bg,
-      linear-gradient(224deg, #ff92ae 8.18%, #ff3d9a 95.84%));
+  background: var(
+    --Gradient-tertiary-bg,
+    linear-gradient(224deg, #ff92ae 8.18%, #ff3d9a 95.84%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
 }
 
 .security {
-  background: var(--Gradient-success-bg,
-      linear-gradient(225deg, #67e9f1 0%, #24e795 100%));
+  background: var(
+    --Gradient-success-bg,
+    linear-gradient(225deg, #67e9f1 0%, #24e795 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
 }
 
 .codeReview {
-  background: var(--Gradient-warning-bg,
-      linear-gradient(225deg, #ffef5e 0%, #f7936f 100%));
+  background: var(
+    --Gradient-warning-bg,
+    linear-gradient(225deg, #ffef5e 0%, #f7936f 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
 }
 
 .lock {
-  background: var(--Gradient-Primary-bg,
-      linear-gradient(225deg, #f76680 0%, #57007b 100%));
+  background: var(
+    --Gradient-Primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "salt"on;
+  font-feature-settings: "salt" on;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 700;
@@ -523,8 +544,10 @@ h5 {
 .section12 {
   padding: 5% 5%;
   border-radius: 20px;
-  background: var(--Gradient-Secondery-bg,
-      linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%));
+  background: var(
+    --Gradient-Secondery-bg,
+    linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%)
+  );
 }
 
 .hiring {
@@ -538,16 +561,18 @@ h5 {
   font-size: 35px;
   line-height: 40px;
   font-weight: 700;
-  background: var(--Gradient-dark-bg,
-      linear-gradient(225deg, #29272e 0%, #27272e 100%));
+  background: var(
+    --Gradient-dark-bg,
+    linear-gradient(225deg, #29272e 0%, #27272e 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 1024px) {
-  .railworld {
-    font-size: 1.5rem;
+  .rail1 {
+    font-size: 1.8rem;
   }
 
   .programming img {
@@ -571,24 +596,33 @@ h5 {
 }
 
 @media screen and (max-width: 992px) {
-  .railworld {
-    font-size: 1.5rem;
+  .lgfssecondpara{
+    font-size: 2.5rem;
+  }
+
+  .leftpart p{
+    line-height: 25px;
   }
 
   .rail1 {
     font-size: 1.5rem;
   }
 
-  .great {
+  .lgfssecondpara {
     font-size: 1.5rem;
   }
 
-  .product {
-    font-size: 1.5rem;
-  }
 
   .teams {
     font-size: 1.5rem;
+  }
+
+  .intellect {
+    font-size: 1.8rem;
+  }
+
+  .driven {
+    font-size: 1.8rem;
   }
 
   .section3 {
@@ -638,24 +672,21 @@ h5 {
     font-weight: 700;
   }
 
-  .railworld {
-    font-size: 1.6rem;
-  }
 
   .rail1 {
+    font-size: 1.2rem;
+  }
+
+  .lgfssecondpara{
+    font-size: 1.5rem;
+  }
+
+  .intellect {
     font-size: 1.6rem;
   }
 
-  .great {
-    font-size: 1.6rem;
-  }
-
-  .product {
-    font-size: 1.6rem;
-  }
-
-  .teams {
-    font-size: 1.6rem;
+  .driven {
+    font-size: 1.5rem;
   }
 
   .fourthSecHeading,
@@ -774,16 +805,19 @@ h5 {
 
   .project-card {
     padding: 3% 2%;
-    margin: 0% 5%;
+    margin: 0% 10%;
   }
 }
 
 @media screen and (max-width: 320px) {
-
   .fourthSecHeading,
   .eightSecHeading,
   .sixthSecHeading {
     font-size: 1.3rem;
+  }
+
+  .rail1{
+    font-size: 1rem;
   }
 
   .programming img {

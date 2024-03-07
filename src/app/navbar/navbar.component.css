@@ -14,7 +14,7 @@
 }
 
 .navBar {
-  background-color: #f6c73b;
+  background-color: #ffffff;
 }
 
 .imgbgc {
@@ -91,7 +91,7 @@ ul li a:hover {
 
 @media screen and (max-width: 992px) {
   .services {
-    background-color: #f6c73b;
+    background-color: #fff;
   }
 
   .meenu {
@@ -122,7 +122,7 @@ ul li a:hover {
   }
 
   .services {
-    background-color: #f6c73b;
+    background-color: #fff;
   }
 
   .meenu {
