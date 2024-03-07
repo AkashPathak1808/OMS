@@ -145,7 +145,7 @@
 .serviceLink {
   border-radius: 0.62rem;
   background: #E2E8FC;
-  padding: 1% 1%;
+  padding: 1% 0.6%;
   margin: 1%;
   font-family: poppins;
   font-size: 0.93rem;
@@ -155,7 +155,7 @@
   text-decoration: none;
   color: black;
   width: 13.12rem;
-  height: 3.68rem;
+  height: 4rem;
   text-align: center;
   transition: all 0.5s;
 }
