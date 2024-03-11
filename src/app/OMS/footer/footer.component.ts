@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   logo = "assets/footer/image 2.png";
+  currentYear: number = new Date().getFullYear(); // Add this line
 }
