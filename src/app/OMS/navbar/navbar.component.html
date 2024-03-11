@@ -1,0 +1,91 @@
+<section>
+  <nav class="nav-one ">
+    <div class="right">
+
+      <div class="contact">
+        <img [src]="call" alt="">
+        <a href="tel:+91-9171711501"> +91-9171711501</a>
+      </div>
+
+      <div class="email">
+        <img [src]="mail" alt="">
+        <a href="mailto: info@railword.co.in">info@railword.co.in</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="navBar">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <div class="imgbgc">
+          <div class="img">
+            <img [src]="railworld" alt="" class="rwLogo">
+          </div>
+        </div>
+
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+
+          <div class=" ms-auto ">
+            <ul class="navbar-nav  text-center">
+              <li class="nav-item active">
+                <a class="nav-link" routerLink="/">
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" routerLink="/about-us">
+                  About Us
+                </a>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Services
+                </a>
+
+                <ul class="dropdown-menu services  meeennnuu" aria-labelledby="navbarDropdown ">
+                  <li><a routerLink="/service/ios" class="dropdown-item">IOS</a></li>
+                  <li><a routerLink="/service/android" class="dropdown-item ">Android </a></li>
+                  <li><a routerLink="/service/app-development" class="dropdown-item ">App Development</a></li>
+                  <li><a routerLink="/service/web-development" class="dropdown-item ">Web Development</a></li>
+                  <li><a routerLink="/service/software-development" class="dropdown-item ">Software Development</a></li>
+                  <li><a routerLink="/service/ui-ux-designing" class="dropdown-item ">UI/UX</a></li>
+                  <li><a routerLink="/service/data-science" class="dropdown-item ">Data Science Analyst</a></li>
+                  <li><a routerLink="/service/ai-ml-development" class="dropdown-item ">AI-Ml Development</a></li>
+                  <li><a routerLink="/service/blockchain" class="dropdown-item ">Blockchain</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" routerLink="/events">
+                  Events
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" routerLink="/careers">
+                  Careers
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" routerLink="/singnup">
+                  <img [src]="userProfile" alt="" class="userProfile">
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>

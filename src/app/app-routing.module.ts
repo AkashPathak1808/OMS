@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { IosDevelopmentComponent } from './ios-development/ios-development.component';
-import { AppDevelopmentComponent } from './app-development/app-development.component';
-import { SoftwareDevelopmentComponent } from './software-development/software-development.component';
-import { WebDevelopmentComponent } from './web-development/web-development.component';
-import { UiUxComponent } from './ui-ux/ui-ux.component';
-import { DataScienceComponent } from './data-science/data-science.component';
-import { AiMlComponent } from './ai-ml/ai-ml.component';
-import { BlockchainComponent } from './blockchain/blockchain.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { CareerPageComponent } from './career-page/career-page.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { JobDeskComponent } from './job-desk/job-desk.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
-import { SignupPageComponent } from './signup-page/signup-page.component';
-import { EventsComponent } from './events/events.component';
+import { IosDevelopmentComponent } from './OMS/ios-development/ios-development.component';
+import { AppDevelopmentComponent } from './OMS/app-development/app-development.component';
+import { SoftwareDevelopmentComponent } from './OMS/software-development/software-development.component';
+import { WebDevelopmentComponent } from './OMS/web-development/web-development.component';
+import { UiUxComponent } from './OMS/ui-ux/ui-ux.component';
+import { DataScienceComponent } from './OMS/data-science/data-science.component';
+import { AiMlComponent } from './OMS/ai-ml/ai-ml.component';
+import { BlockchainComponent } from './OMS/blockchain/blockchain.component';
+import { LandingPageComponent } from './OMS/landing-page/landing-page.component';
+import { CareerPageComponent } from './OMS/career-page/career-page.component';
+import { AboutUsComponent } from './OMS/about-us/about-us.component';
+import { JobDeskComponent } from './OMS/job-desk/job-desk.component';
+import { ContactUsComponent } from './OMS/contact-us/contact-us.component';
+import { SignupPageComponent } from './OMS/signup-page/signup-page.component';
+import { EventsComponent } from './OMS/events/events.component';
 
 const routes: Routes = [
 

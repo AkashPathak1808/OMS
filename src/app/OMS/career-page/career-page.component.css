@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter&family=Poppins:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  font-family: "Poppins";
+  padding: 10%;
+  background-image: url("../../../assets/CareerPageImg/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+
+.buildFuture {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 3.2px;
+}
+
+/* Section 2  */
+
+.secondSection {
+  padding: 10%;
+}
+
+.section2 {
+  padding: 7% 2%;
+  border-radius: 30px;
+  background: rgba(128, 0, 128, 0.1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.joinUs {
+  color: #000;
+  font-size: 1.375rem;
+  font-weight: 300;
+  line-height: 3.5rem;
+  letter-spacing: 2.2px;
+}
+
+.f_technology {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3.5rem;
+  letter-spacing: 0.25rem;
+  padding-right: 15%;
+}
+
+.rwi {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  text-align: start;
+  line-height: 3.5rem;
+  letter-spacing: 1.2px;
+}
+
+/* Section 3 */
+.thirdSec {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 5%;
+}
+
+.innovation {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: "Kalam";
+  line-height: 55px;
+}
+
+.destination {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: justify;
+}
+
+.g_future {
+  padding-top: 15%;
+  padding-left: 20%;
+}
+
+.button {
+  border-radius: 40px;
+  background: #4bab9f;
+  max-width: fit-content;
+  color: #fff;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  padding: 3% 6%;
+  float: right;
+  margin-right: 5%;
+
+  margin-bottom: 5%;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.image2 {
+  height: 450px;
+}
+
+.image3 {
+  width: 70%;
+  float: right;
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .image2 {
+    height: 370px;
+    margin-top: 15%;
+  }
+
+  .image3 {
+    width: 100%;
+    float: right;
+  }
+
+  .g_future {
+    padding: 2% 5% 0% 5%;
+  }
+
+  .f_technology {
+    font-size: 2rem;
+
+    padding-right: 15%;
+  }
+
+  .rwi {
+    font-size: 20px;
+    text-align: start;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .image2 {
+    height: 350px;
+    width: 300px;
+    margin-top: 15%;
+  }
+
+  .f_technology {
+    font-size: 2rem;
+    padding-right: 0%;
+  }
+
+  .rwi {
+    font-size: 1.2rem;
+    text-align: start;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+  }
+
+  .image3 {
+    width: 100%;
+    float: right;
+
+    height: 100%;
+  }
+
+  .buildFuture {
+   
+    font-size: 2rem;
+ 
+    line-height: 50px;
+   
+  }
+  
+}
+
+@media screen and (max-width: 769px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .buildFuture {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .underline {
+    width: 12rem;
+    height: 20px;
+  }
+
+  .innovation {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+
+  .destination {
+    font-size: 1.5rem;
+    line-height: 50px;
+  }
+
+  .button {
+    float: right;
+  }
+
+  .image3 {
+    width: 100%;
+
+
+    height: 100%;
+  }
+
+  .g_future {
+    padding: 2% 5% 5% 5%;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image2 {
+    width: 550px;
+  }
+
+  .future {
+    width: fit-content;
+  }
+
+  .f_technology {
+    padding-right: 0%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  
+  .underline {
+    width: 9rem;
+    height: 20px;
+  }
+
+  .buildFuture {
+    font-size: 1.5rem;
+  }
+
+  .innovation {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .destination {
+    font-size: 1.15rem;
+    line-height: 35px;
+  }
+
+  .f_technology {
+    font-size: 1.2rem;
+    line-height: 23px;
+  }
+
+  .button {
+    float: right;
+  }
+
+  .rwi {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .f_technology {
+    padding-right: none;
+  }
+
+  .image2 {
+    width: 280px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .image3{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .image2 {
+    width: 250px;
+  }
+
+  .f_technology {
+    font-size: 1.2rem;
+    line-height: 30px;
+
+    margin-bottom: 2%;
+  }
+
+  .innovation{
+    line-height: 42px;
+  }
+}
